@@ -70,7 +70,7 @@ toc: true
 
 # Social Sharing
 twitter:
-  username               : &twitter ayushkumarshah7
+  username               : &twitter darshan_levi
 facebook:
   username               :
   app_id                 :
@@ -80,14 +80,14 @@ og_image                 :  # Open Graph/Twitter default site image
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
   name: Darshan Acharya  # it will shows as the copyright owner in Footer
-  email: ayush.kumar.shah@gmail.com             # change to your email address
+  email: acharyadarshan02@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/ayushkumarshah7      # change to your twitter homepage
-    - https://github.com/ayushkumarshah       # change to your github homepage
+    - https://twitter.com/darshan_levi      # change to your twitter homepage
+    - https://github.com/acharyadarshan       # change to your github homepage
     # Uncomment below to add more social links
-    - https://www.facebook.com/ayushkumarshah
-    - https://www.linkedin.com/in/ayush7
+    # https://www.facebook.com/ayushkumarshah
+    - https://www.linkedin.com/in/darshan-acharya-a2662219b/
 
 
 # Analytics
@@ -102,11 +102,11 @@ author:
   name             : "Darshan Acharya"
   avatar           : "profile.png"
   bio              : "Computer Engineering Graduate|Associate Software Engineer"
-  location         : "Rochester, New York"
+  location         : "Kathmandu, Nepal"
   employer         :
   # pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
   # googlescholar    : "http://yourfullgooglescholarurl.com"
-  email            : "ayush.kumar.shah@gmail.com"
+  email            : "acharyadarshan02@gmail.com"
   researchgate     :  # example: "https://www.researchgate.net/profile/yourprofile"
   uri              :
   bitbucket        :
@@ -115,20 +115,20 @@ author:
   flickr           :
   facebook         :
   foursquare       :
-  github           : "ayushkumarshah"
+  github           : "acharyadarshan"
   google_plus      :
   keybase          :
   instagram        :
   impactstory      : #"https://profiles.impactstory.org/u/xxxx-xxxx-xxxx-xxxx"
   lastfm           :
-  linkedin         : "ayush7"
-  orcid            : "http://orcid.org/0000-0001-6158-7632"
+  linkedin         : "acharyaD"
+  #orcid            : "http://orcid.org/0000-0001-6158-7632"
   pinterest        :
   soundcloud       :
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "ayushkumarshah7"
+  twitter          : "acharya_levi"
   vine             :
   weibo            :
   xing             :
