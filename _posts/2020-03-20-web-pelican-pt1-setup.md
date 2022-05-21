@@ -5,7 +5,7 @@ Modified: 2020-03-22 09:00
 categories: [Pelican-for-website-creation]
 summary: Learn to install pelican and set up your project with a theme for your website.
 tags: [pelican, python, pelican-plugin, flex, website]
-author: Ayush Kumar Shah
+author: Darshan Acharya
 ---
 
 This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous article, please check it out by clicking the link below.
@@ -80,8 +80,8 @@ This script will help you create a new Pelican-based website. Please answer the 
 needed by Pelican.
 
     > Where do you want to create your new web site? [.] .
-    > What will be the title of this web site? Ayush Kumar Shah
-    > Who will be the author of this web site? Ayush Kumar Shah
+    > What will be the title of this web site? Darshan Acharya
+    > Who will be the author of this web site? Darshan Acharya
     > What will be the default language of this web site? [en] en
     > Do you want to specify a URL prefix? e.g., http://example.com   (Y/n) n
     > Do you want to enable article pagination? (Y/n) Y
@@ -101,7 +101,7 @@ Done. Your new project is available at `/Users/ayushkumarshah/Desktop/Blog_writi
 
 While answering the questions, please keep these things in mind:
 
-- Title and Author: Replace `Ayush Kumar Shah` with the title and author's name that you want.
+- Title and Author: Replace `Darshan Acharya` with the title and author's name that you want.
 - Default language: You can set any language using the standard [ISO 639.1](https://www.loc.gov/standards/iso639-2/php/code_list.php) 2 letter code.
 
 - Article Pagination: If you do not want to limit the number of articles on a page, enter n.
@@ -303,7 +303,7 @@ I will demonstrate using a sample configuration for this theme. For that, add th
 
 PLUGINS = ['sitemap', 'post_stats', 'feed_summary']
 SITEURL = 'http://localhost:8000'
-SITETITLE = 'Ayush Kumar Shah'  # Replace with your name
+SITETITLE = 'Darshan Acharya'  # Replace with your name
 SITESUBTITLE = 'Ideas and Thoughts'
 SITELOGO = '/assets/img/sample/profile.png'
 FAVICON = '/assets/img/sample/favicon.ico'

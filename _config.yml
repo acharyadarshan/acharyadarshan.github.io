@@ -7,9 +7,9 @@
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Ayush Kumar Shah"
+title                    : "Darshan Acharya"
 title_separator          : "-"
-name                     : &name "Ayush Kumar Shah"
+name                     : &name "Darshan Acharya"
 description              : &description "My personal website to share my academic profile and research contributions. I also share my ideas and a reflection of intereseting topics I learn mostly in the field of Artificial Intelligence and Python."
 url                      : https://shahayush.com # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -79,7 +79,7 @@ og_image                 :  # Open Graph/Twitter default site image
 # For specifying social profiles
 # - https://developers.google.com/structured-data/customize/social-profiles
 social:
-  name: Ayush Kumar Shah  # it will shows as the copyright owner in Footer
+  name: Darshan Acharya  # it will shows as the copyright owner in Footer
   email: ayush.kumar.shah@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
@@ -99,7 +99,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ayush Kumar Shah"
+  name             : "Darshan Acharya"
   avatar           : "profile.png"
   bio              : "Computer Science Ph.D. Student"
   location         : "Rochester, New York"

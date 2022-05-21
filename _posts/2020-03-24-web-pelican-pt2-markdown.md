@@ -5,7 +5,7 @@ Modified: 2020-03-28 22:25
 categories: [Pelican-for-website-creation]
 summary: Learn how to write your articles or blogs using Markdown.
 tags: [pelican, markdown, python, website]
-author: Ayush Kumar Shah
+author: Darshan Acharya
 ---
 
 This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous
@@ -75,7 +75,7 @@ your article. Open the file `first_article.md` and add the following metadata li
     Slug: first-article
     Summary: In this article, I have written my first article using Markdown.
     Tags: pelican, markdown
-    Authors: Ayush Kumar Shah
+    Authors: Darshan Acharya
     Status: published
 
 These keywords are pretty much self-explanatory. I will just explain the new ones.
@@ -253,7 +253,7 @@ as detailed as before.
 Write the content for your about page using Markdown in the way you want to design the
 page. I have provided a simple example for my `about` page below.
 
-    Hello! I’m Ayush Kumar Shah. To talk about myself, I love football (Cristiano Ronaldo is my idol), traveling, and photography. I have a great interest in Artificial Intelligence and am pursuing my career in the same. 
+    Hello! I’m Darshan Acharya. To talk about myself, I love football (Cristiano Ronaldo is my idol), traveling, and photography. I have a great interest in Artificial Intelligence and am pursuing my career in the same. 
 
     I am a Machine Learning Engineer at [Fusemachines](https://www.fusemachines.com) working with global client teams to build state-of-the-art products. I have worked in the domains of Recommendation System, Nepali Handwritten character recognition, and waste classification during my time at Fusemachines.
 

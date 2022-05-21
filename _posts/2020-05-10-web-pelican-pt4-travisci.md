@@ -4,7 +4,7 @@ date: 2020-05-10 21:47
 categories: [Pelican-for-website-creation]
 summary: Learn to use Travis-CI to automate deploying your website to master branch
 tags: [pelican, python, Travis-ci, build, website]
-author: Ayush Kumar Shah
+author: Darshan Acharya
 ---
 
 This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous

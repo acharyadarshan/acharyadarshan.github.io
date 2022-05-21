@@ -9,7 +9,7 @@ redirect_from:
 ---
 
 <!--
-# Ayush Kumar Shah
+# Darshan Acharya
  -->
 
 <!--

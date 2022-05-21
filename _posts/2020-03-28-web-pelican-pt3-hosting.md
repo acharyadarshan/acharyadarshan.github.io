@@ -5,7 +5,7 @@ Modified: 2020-05-10 00:38
 categories: [Pelican-for-website-creation]
 summary: Learn to host your website in GitHub pages or custom domain for free.
 tags: [pelican, python, GitHub-pages, website]
-author: Ayush Kumar Shah
+author: Darshan Acharya
 ---
 
 This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous

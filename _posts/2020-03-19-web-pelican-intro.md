@@ -4,7 +4,7 @@ date: 2020-03-19 21:00
 categories: [Pelican-for-website-creation]
 summary: Get to know how markdown and the python library pelican can be used to create your static website.
 tags: [pelican, python, markdown, GitHub-pages, Travis-ci, Disqus, google analytics]
-author: Ayush Kumar Shah
+author: Darshan Acharya
 ---
 
 You may have the desire to build your personal or blog site and host it in your domain name but several obstacles like
