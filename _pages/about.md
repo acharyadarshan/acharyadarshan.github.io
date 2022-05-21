@@ -18,7 +18,7 @@ Graduate Research Assisstant, <br>
  -->
 
 I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
-Currently, I am interning as a software engineer at [Leapfrog Technology Inc](https://www.lftechnology.com/
+Currently, I am interning as a software engineer at [Leapfrog Technology Inc](https://www.lftechnology.com/)
 I am learner by DNA. I like building things and sharing it to the community.
 
 **Research Interests**: Pattern recognition, computer vision, detection and recognition of graphical structures, deep
