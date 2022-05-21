@@ -10,7 +10,7 @@ author: Darshan Acharya
 
 This article is a part of a series of articles for web development using pelican. So, if you haven't read the previous article, please check it out by clicking the link below.
 
-[Creating and deploying static websites using Markdown and the Python library Pelican](https://shahayush.com/2020/03/web-pelican-intro)
+[Creating and deploying static websites using Markdown and the Python library Pelican](https://acharyadarshan.github.io//2020/03/web-pelican-intro)
 
 [Pelican](https://docs.getpelican.com/en/stable/index.html) is a static site generator, written in Python.
 
@@ -383,7 +383,7 @@ You should see your website with your new configuration. Feel free to modify it 
 **Congratulations**, you have completed the basic setup for Pelican. 
 
 However, your site has no content. Start writing content in the [part
-2](https://shahayush.com/2020/03/web-pelican-pt2-markdown) of the article.
+2](https://acharyadarshan.github.io//2020/03/web-pelican-pt2-markdown) of the article.
 
 If you have any confusion in any article, feel free to comment on your queries. I will be more than happy to help. I am
 also open to suggestions and feedbacks.  
@@ -394,11 +394,11 @@ website that you are seeing right now.
 
 If you want to visit any specific parts of the article, you can do so from the links below.
 
-- [<span style="color:green">Part 1: Setting up Pelican - Installation and Theme</span>](https://shahayush.com/2020/03/web-pelican-pt1-setup)
-- [**Part 2: Writing content using Markdown**](https://shahayush.com/2020/03/web-pelican-pt2-markdown)
-- [Part 3: Hosting your website to GitHub Pages and custom domain](https://shahayush.com/2020/03/web-pelican-pt3-hosting)
-- [Part 4: Setting up Travis-CI for automating deployment](https://shahayush.com/2020/05/web-pelican-pt4-travisci)
-- [Part 5: Integrate Disqus comments and Google Analytics with Pelican](https://shahayush.com/2020/05/web-pelican-pt5-disqus-analytics)
+- [<span style="color:green">Part 1: Setting up Pelican - Installation and Theme</span>](https://acharyadarshan.github.io//2020/03/web-pelican-pt1-setup)
+- [**Part 2: Writing content using Markdown**](https://acharyadarshan.github.io//2020/03/web-pelican-pt2-markdown)
+- [Part 3: Hosting your website to GitHub Pages and custom domain](https://acharyadarshan.github.io//2020/03/web-pelican-pt3-hosting)
+- [Part 4: Setting up Travis-CI for automating deployment](https://acharyadarshan.github.io//2020/05/web-pelican-pt4-travisci)
+- [Part 5: Integrate Disqus comments and Google Analytics with Pelican](https://acharyadarshan.github.io//2020/05/web-pelican-pt5-disqus-analytics)
 
 
-Or, go to the [home-page of the article.](https://shahayush.com/2020/03/web-pelican-intro)
+Or, go to the [home-page of the article.](https://acharyadarshan.github.io//2020/03/web-pelican-intro)
