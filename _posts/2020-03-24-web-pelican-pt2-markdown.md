@@ -276,11 +276,10 @@ similar one.
     Slug: contact
 
     If you have any questions or want to discuss something, please feel free to contact me at
-    [ayush.kumar.shah@gmail.com](mailto:aysh.kumar.shah@gmail.com)
-    [Twitter](https://twitter.com/ayushkumarshah7)
-    [Linkedin](https://np.linkedin.com/in/ayush7).
+    [acharyadarshan02@gmail.com](mailto:acharyadarshan02@gmail.com)
+    [Twitter](https://twitter.com/darshan_levi)
+    [Linkedin](https://www.linkedin.com/in/darshan-acharya-a2662219b/).
 
-    Likewise, if you want to inform about any type of error in my blogs, you can open an issue [here](https://github.com/ayushkumarshah/ayushkumarshah.github.io/issues/new).
 
 [![Contact](/assets/img/sample/contact.png)](https://ibb.co/7z0P49d)
 
@@ -304,7 +303,7 @@ Although your site has been built, it is not publicly available. Learn how to ho
 If you have any confusion in any article, feel free to comment on your queries. I will be more than happy to help. I am
 also open to suggestions and feedbacks.  
 
->Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/ayushkumarshah/ayushkumarshah.github.io/tree/pelican-backup) as a
+>Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/acharyadarshan/ayushkumarshah.github.io/tree/pelican-backup) as a
 reference in any point of the article. I have followed the same steps mentioned in this series to create my blog
 website that you are seeing right now.
 

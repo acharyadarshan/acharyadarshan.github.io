@@ -325,12 +325,12 @@ SITEMAP = {
 
 # Add a link to your social media accounts
 SOCIAL = (
-    ('github', 'https://github.com/ayushkumarshah'),
-    ('envelope', 'mailto:ayushkumarshah@gmail.com'),
-    ('linkedin','https://np.linkedin.com/in/ayush7'),
-    ('twitter','https://twitter.com/ayushkumarshah7'),
-    ('facebook','https://www.facebook.com/ayushkumarshah'),
-    ('reddit','https://www.reddit.com/user/ayushkumarshah')
+    ('github', 'https://github.com/acharyadarshan'),
+    ('envelope', 'mailto:acharyadarshan@gmail.com'),
+    ('linkedin','https://www.linkedin.com/in/darshan-acharya-a2662219b/'),
+    ('twitter','https://twitter.com/darshan_levi '),
+    #('facebook','https://www.facebook.com/darshanacharya'),
+    #('reddit','https://www.reddit.com/user/darshanacharya')
 )
 
 STATIC_PATHS = ['images', 'extra']
@@ -388,7 +388,7 @@ However, your site has no content. Start writing content in the [part
 If you have any confusion in any article, feel free to comment on your queries. I will be more than happy to help. I am
 also open to suggestions and feedbacks.  
 
->Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/ayushkumarshah/ayushkumarshah.github.io/tree/pelican-backup) as a
+>Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/acharyadarshan/ayushkumarshah.github.io/tree/pelican-backup) as a
 reference in any point of the article. I have followed the same steps mentioned in this series to create my blog
 website that you are seeing right now.
 

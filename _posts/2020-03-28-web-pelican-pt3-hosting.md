@@ -229,11 +229,11 @@ the gif below):
 
 - Now, clone the forked repo in your project.
 
-    Paste the link you copied from the forked repo instead of `https://github.com/ayushkumarshah/Flex.git` and
+    Paste the link you copied from the forked repo instead of `https://github.com/acharyadarshan/Flex.git` and
         `themes/name_of_theme` as the 2nd argument in the command below.
 
 ```console
-(.venv) $ git clone 'https://github.com/ayushkumarshah/Flex.git' 'themes/Flex'
+(.venv) $ git clone 'https://github.com/acharyadarshan/Flex.git' 'themes/Flex'
 ```
 
 Now, you may modify the theme by tweaking with the HTML and CSS files inside the `themes/Flex/` directory and then
@@ -246,7 +246,7 @@ tools like [Travis-CI](https://travis-ci.org/) in the [part
 If you have any confusion in any article, feel free to comment on your queries. I will be more than happy to help. I am
 also open to suggestions and feedbacks.  
 
->Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/ayushkumarshah/ayushkumarshah.github.io/tree/pelican-backup) as a
+>Also, you can use my GitHub repository for my blog post: [**ayushkumarshah.github.io**](https://github.com/acharyadarshan/ayushkumarshah.github.io/tree/pelican-backup) as a
 reference in any point of the article. I have followed the same steps mentioned in this series to create my blog
 website that you are seeing right now.
 
