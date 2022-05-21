@@ -5865,7 +5865,7 @@ website that you are seeing right now.&lt;/p&gt;
 incomplete knowledge of HTML and CSS, databases; the financial burden to host your site; the complexities of deployment and
 continuous-integration pipelines, etc might have prevented you from doing so.&lt;/p&gt;
 
-&lt;p&gt;In this article, I will explain the complete steps to build your static website like the one I have built (&lt;a href=&quot;https://acharyadarshan.github.io/&quot;&gt;shahayush&lt;/a&gt;) using a static site generator
+&lt;p&gt;In this article, I will explain the complete steps to build your static website like the one I have built (&lt;a href=&quot;https://acharyadarshan.github.io/&quot;&gt;acharyadarshan&lt;/a&gt;) using a static site generator
 called &lt;a href=&quot;https://docs.getpelican.com/en/stable/index.html&quot;&gt;Pelican&lt;/a&gt;, which is written in Python, deploy it on &lt;a href=&quot;https://pages.github.com/&quot;&gt;GitHub
 Pages&lt;/a&gt; along with continuous integration (CI) using &lt;a href=&quot;https://travis-ci.org/&quot;&gt;Travis-CI&lt;/a&gt; and
 linking it to your custom domain name, all without requiring the knowledge of HTML and CSS, databases or deployment

@@ -11,7 +11,7 @@ You may have the desire to build your personal or blog site and host it in your 
 incomplete knowledge of HTML and CSS, databases; the financial burden to host your site; the complexities of deployment and
 continuous-integration pipelines, etc might have prevented you from doing so.
 
-In this article, I will explain the complete steps to build your static website like the one I have built ([shahayush](https://acharyadarshan.github.io/)) using a static site generator
+In this article, I will explain the complete steps to build your static website like the one I have built ([acharyadarshan](https://acharyadarshan.github.io/)) using a static site generator
 called [Pelican](https://docs.getpelican.com/en/stable/index.html), which is written in Python, deploy it on [GitHub
 Pages](https://pages.github.com/) along with continuous integration (CI) using [Travis-CI](https://travis-ci.org/) and
 linking it to your custom domain name, all without requiring the knowledge of HTML and CSS, databases or deployment
