@@ -436,7 +436,7 @@
 ### Enhancements
 
 - Decreased spacing between Markdown footnotes
-- Removed dark background on footer
+- Removed darkbackground on footer
 - Removed UPPERCASE styling on post titles in the index listing
 
 ## [1.1.4](https://github.com/mmistakes/minimal-mistakes/releases/tag/1.1.4)

@@ -213,7 +213,7 @@ MagnificPopup.prototype = {
 		// main containers are created only once
 		if(!mfp.bgOverlay) {
 
-			// Dark overlay
+			// darkoverlay
 			mfp.bgOverlay = _getEl('bg').on('click'+EVENT_NS, function() {
 				mfp.close();
 			});
