@@ -12,5 +12,5 @@ redirect_from:
 You can download a PDF copy of my CV
 [here](/files/DarshanAcharya_CV.pdf).
 
-<iframe src="/files/CV_DarshanAcharya_CV.pdf" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
+<iframe src="/files/DarshanAcharya_CV.pdf" width="100%" height="800" frameborder="no" border="0" marginwidth="0" marginheight="0"></iframe>
 
