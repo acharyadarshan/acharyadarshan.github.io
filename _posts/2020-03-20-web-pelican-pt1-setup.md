@@ -60,6 +60,7 @@ file
 
  and paste the lines from this link: [requirements.txt](https://raw.githubusercontent.com/ayushkumarshah/ayushkumarshah.github.io/source/requirements.txt) into the file.
 
+
 Then just run the following command inside the virtual environment to install all these packages
 
 ```console

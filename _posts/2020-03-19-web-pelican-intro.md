@@ -8,5 +8,5 @@ author: Darshan Acharya
 ---
 Demo
 
-{% include iframe_holder.html url="https://youtu.be/NDuJbYVpBW0" width="560" height="315" %}
+{% include iframe_holder.html url="https://youtube.com/embed/NDuJbYVpBW0" width="560" height="315" %}
 
