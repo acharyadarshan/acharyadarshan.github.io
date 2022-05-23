@@ -61,7 +61,7 @@ The websites that were used for data collections are:
   http://www.folktunefinder.com  
 
 
-``` 
+```python
 import requests
 from bs4 import BeautifulSoup
 
@@ -90,7 +90,7 @@ for i in range(1,11):
         f.close()
 ```
 
-```
+```python
 from bs4 import BeautifulSoup
 import requests
 
@@ -137,7 +137,7 @@ for table in form.find_all('table', class_ = 'match'):
 # Same title data is not implemented  
 ```
 
-```
+```python
 import requests
 from bs4 import BeautifulSoup
 
