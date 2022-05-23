@@ -10,7 +10,6 @@ Demo
 
 {% include iframe_holder.html url="https://youtube.com/embed/NDuJbYVpBW0" width="560" height="315" %}
 
-
 ## Objectives
 
 -To create an automated musical tune prediction model that takes arbitary notes as input and predicts a  sequence of musical notes
