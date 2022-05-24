@@ -5,7 +5,7 @@ permalink: /projects/
 author_profile: true
 ---
 
-- [Automated musical tune generation using char RNN](https://github.com/acharyadarshan/Nepali_Plagiarism_Detection)<br>
+- [Automated musical tune generation using char RNN](https://github.com/acharyadarshan/Nepali_Plagiarism_Detection)[process](https://acharyadarshan.github.io/2020/03/web-pelican-intro/) [source code](https://github.com/acharyadarshan/Automated-musical-tune-generation-using-char-RNN)<br>
 An application that can generate a sequence of musical notes which can be played by media player to produce generated tune
 
 - [Draw using discrete fourier transform](https://discretefouriervisualize.netlify.app/)<br>
