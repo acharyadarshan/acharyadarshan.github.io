@@ -7,7 +7,6 @@ tags: [pelican, python, markdown, GitHub-pages, Travis-ci, Disqus, google analyt
 author: Darshan Acharya
 ---
 Demo
-
 {% include iframe_holder.html url="https://youtube.com/embed/NDuJbYVpBW0" width="560" height="315" %}
 
 ## Objectives
