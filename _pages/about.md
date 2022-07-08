@@ -127,7 +127,7 @@ Fundamentals of CS, Python Programming, Data Structure, Database Management Syst
 
 ---
 
-## Additional Experiences and Certifications:
+## Additional Experiences and Certifications :
 
 | S.No. | Name of Course/Conference                                                                                                                 | Offered by                                                                          | Estimated period | Date of Completion  | Certificate                                                                                                              |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
