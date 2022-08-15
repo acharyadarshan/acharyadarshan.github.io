@@ -127,7 +127,7 @@ Fundamentals of CS, Python Programming, Data Structure, Database Management Syst
 
 ---
 
-## Additional Experiences and Certifications :
+<!-- ## Additional Experiences and Certifications :
 
 | S.No. | Name of Course/Conference                                                                                                                 | Offered by                                                                          | Estimated period | Date of Completion  | Certificate                                                                                                              |
 | ----- | ----------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------- | ---------------- | ------------------- | ------------------------------------------------------------------------------------------------------------------------ |
@@ -148,7 +148,7 @@ Fundamentals of CS, Python Programming, Data Structure, Database Management Syst
 | 15    | [Introduction to Bash Shell Scripting](https://www.coursera.org/learn/introduction-to-bash-shell-scripting)                               | [Coursera](https://www.coursera.org/)                                               | 1 hour           | Nov 4, 2020         | [View Certificate](https://www.coursera.org/account/accomplishments/certificate/5MDW2Q3ZV7D2)                            |
 | 16    | [Automation Scripts Using Bash](https://www.coursera.org/projects/auto-scripts-bash)                                                      | [Coursera](https://www.coursera.org/)                                               | 1 hour           | Nov 4, 2020         | [View Certificate](https://www.coursera.org/account/accomplishments/certificate/59AMMXE6F9YR)                            |
 
----
+--- -->
 
 ## Technical Skills
 
