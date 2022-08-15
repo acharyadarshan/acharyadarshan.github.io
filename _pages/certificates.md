@@ -5,7 +5,7 @@ permalink: /certificates/
 author_profile: true
 ---
 
-|S.No.|Name of Course/Conference|Offered by|Estimated period|Date of Completion|Certificate|
+<!-- |S.No.|Name of Course/Conference|Offered by|Estimated period|Date of Completion|Certificate|
 |---|---|---|---|---|---|
 |1|Fusemachines Artificial Intelligence Scholarship Program|[Fusemachines](https://fusemachines.com/)|6 months|Nov 2018 - May 2019|
 |2|AWS Innovate Online Conference - AI/ML Edition : Certificate of Attendance|[AWS](https://aws.amazon.com/)|5 hours|Feb 19, 2020|[View Certificate](https://drive.google.com/open?id=1tIMKDhCth63rFkicrPAUu0vQA3Zudx4C)|
@@ -23,4 +23,4 @@ author_profile: true
 |14|[Faster Python Code](https://www.linkedin.com/learning/faster-python-code)|[Linkedin Learning](https://www.linkedin.com/learning)|2 hours|Sept 25, 2020|[View Certificate](https://drive.google.com/file/d/1irBSMbfj227TnGsWVk1xeRQSDRx67t8P/view?usp=sharing)|
 |15|[Introduction to Bash Shell Scripting](https://www.coursera.org/learn/introduction-to-bash-shell-scripting)|[Coursera](https://www.coursera.org/)|1 hour|Nov 4, 2020|[View Certificate](https://www.coursera.org/account/accomplishments/certificate/5MDW2Q3ZV7D2)|
 |16|[Automation Scripts Using Bash](https://www.coursera.org/projects/auto-scripts-bash)|[Coursera](https://www.coursera.org/)|1 hour|Nov 4, 2020|[View Certificate](https://www.coursera.org/account/accomplishments/certificate/59AMMXE6F9YR)|
-
+ -->
