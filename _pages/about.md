@@ -164,10 +164,10 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 ---
 
-- **Programming Languages For ML**: Python, R, Matlab, C, C++, JAVA
-- **Programming Languages For Software**: Javascript, ReactJS, NextJS, NodJS, Laravel
-- **Python Packages**: Pytorch, Tensorflow, Scikit-Learn, OpenCV, Nltk, Pandas, Numpy, Matplotlib, Fastapi, BeautifulSoup, Regex, NetworkX, Jupyter
-- **Database**: MySQL, MongoDB
-- **Other Tools**: Git, Github, Bash, LATEX, Jira, Linux, Arduino, Raspberry-pi
+- **Programming Languages For Software**: Javascript, ReactJS, NextJS, NodeJS, C/C++
+- **Programming Languages For ML**: Python, R,
+- **Python Packages**: Pytorch, Tensorflow, Scikit-Learn, OpenCV, Nltk, Pandas, Numpy, Matplotlib, Fastapi, BeautifulSoup, Regex, Jupyter
+- **Database**: Firebase,MySQL, MongoDB
+- **Other Tools**: Git, Github, Bash, Linux,
 
 ---
