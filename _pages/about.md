@@ -18,11 +18,9 @@ Graduate Research Assisstant, <br>
  -->
 
 I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
-Currently, I am interning as a software engineer at [Leapfrog Technology Inc](https://www.lftechnology.com/)
-I am learner by DNA. I like building things and sharing it to the community.
+I am a passionate developer with love for Javascript and NLP. I am learner by DNA. I like building things and sharing it to the community.
 
-**Research Interests**: Pattern recognition, computer vision, detection and recognition of graphical structures, deep
-learning, natural language processing, software Engineering
+**Research Interests**: software Engineering,Pattern recognition, computer vision, detection and recognition of graphical structures, deeplearning, natural language processing,
 
 ---
 
@@ -55,14 +53,22 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ### Associate Software Engineer
 
-May 24, 2022 - Present
+July, 2022 - Present
 
-Leapfrog Technology Inc, <br>
+Webpoint Solutions, <br>
 Kathmandu, Nepal
 
-Building projects mainly on health related systems for clients overseas using ReactJS, Node JS, Chakra UI, Laravel
+Building projects mainly on health related systems as a part of fronend team for clients overseas using ReactJS, Node JS, Chakra UI. Particularly working on the state management of the frontend components and their testing.
 
 ---
+
+### Software Engineering Intern
+
+May 2022- July2022
+Leapfrog Technology Inc
+
+Designed and immplemented frontend applications such as Ball collision, Flappy Bird, 2D car game, designed and converted figma design to code with the help of senior developers and mentors assigned to the team.
+[Link to internship projects](https://acharyadarshan.github.io/LeapFrog/)
 
 ### Machine Learning Engineer
 
@@ -94,7 +100,7 @@ Pokhara, Nepal
 
 Designed and implemented daily lesson plans and coding sessions for the course to undergraduate first and second year students.
 The course topics include: Introduction to AI,
-Fundamentals of CS, Python Programming, Data Structure, Database Management System.
+Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 ---
 
@@ -104,26 +110,30 @@ Fundamentals of CS, Python Programming, Data Structure, Database Management Syst
 
 ### Projects
 
-- [Automated musical tune generation using char RNN](https://github.com/acharyadarshan/Nepali_Plagiarism_Detection)<br>
-  An application that can generate a sequence of musical notes which can be played by media player to produce generated tune
+- [Logic Simulator ](https://logic-circuit-simulator-frontend.darshanacharya.repl.co/)<br>
+  An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
+  Note: Initially loading project requires 15-20s to fetch data from backend server
 
-- [Draw using discrete fourier transform](https://discretefouriervisualize.netlify.app/)<br>
-  An application that predicts the chords when the Mel spectrograms of guitar sound are fed into a CNN.
+- [Automated musical tune generation using char RNN](https://acharyadarshan.github.io/2020/03/web-pelican-intro/)<br>
+  An application that can generate a sequence of ABC musical notes which can be played by media player to compose musical tunes
+
+- [Draw using discrete fourier transform](https://drawusing-fourier.netlify.app/)<br>
+  An application that helps you draw any shape or figure and visualize the working of Fourier transform to rebuild the same figure by application of the Fourier transform.
+
+- [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
+  A modified retro style game similar to sonic made as part of intrenship.
 
 - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart.
 
 - [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
-  An application that helps you to visualize the core principles on which any blockchain application is build upon
+  An application that helps you to visualize the core principles on which any blockchain application is build upon.
 
-- [Build a chess engine](https://github.com/acharyadarshan/autocar/)<br>
-  A chess engine that can play with you using depth upto certain points.
+<!-- - [Make playable drum](https://github.com/acharyadarshan/MathMate)<br>
+  A web application written in python that uses concepts from pygame to give you playable drum with nice UI. -->
 
 - [Visaulize quicksort](https://visualizequicksort.netlify.app/)<br>
   A web application that helps you to visualize the fastest searching algorithm quick sort
-
-- [Make playable drum](https://github.com/acharyadarshan/MathMate)<br>
-  A web application written in python that uses concepts from pygame to give you playable drum with nice UI.
 
 ---
 
