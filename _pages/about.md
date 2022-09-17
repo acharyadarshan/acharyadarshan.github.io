@@ -24,7 +24,7 @@ I am a passionate developer with love for Javascript and NLP. I am learner by DN
 
 ---
 
-Get a PDF copy of my CV [here](/files/DarshanAcharya_CV.pdf)
+Get a PDF copy of my CV [here](/files/Darshan_Acharya_Resume.pdf)
 
 ---
 
