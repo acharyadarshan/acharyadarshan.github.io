@@ -53,9 +53,9 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ### Associate Software Engineer
 
-July, 2022 - Present
+July, 2022 - September 2022
 
-Webpoint Solutions, <br>
+Leapfrog Technology, <br>
 Kathmandu, Nepal
 
 Building projects mainly on health related systems as a part of fronend team for clients overseas using ReactJS, Node JS, Chakra UI. Particularly working on the state management of the frontend components and their testing.
