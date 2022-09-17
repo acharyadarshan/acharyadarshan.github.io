@@ -64,8 +64,10 @@ Building projects mainly on health related systems as a part of fronend team for
 
 ### Software Engineering Intern
 
-May 2022- July 2022 <br>
-Leapfrog Technology Inc
+May 2022- July 2022
+
+Leapfrog Technology Inc <br>
+Kathmandu, Nepal
 
 Designed and immplemented frontend applications such as Ball collision, Flappy Bird, 2D car game, designed and converted figma design to code with the help of senior developers and mentors assigned to the team.
 [Link to internship projects](https://acharyadarshan.github.io/LeapFrog/)
