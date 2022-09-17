@@ -64,30 +64,20 @@ Building projects mainly on health related systems as a part of fronend team for
 
 ### Software Engineering Intern
 
-May 2022- July2022
+May 2022- July 2022 <br>
 Leapfrog Technology Inc
 
 Designed and immplemented frontend applications such as Ball collision, Flappy Bird, 2D car game, designed and converted figma design to code with the help of senior developers and mentors assigned to the team.
 [Link to internship projects](https://acharyadarshan.github.io/LeapFrog/)
 
-### Machine Learning Engineer
+### Software Engineering Intern
 
 Jan, 2022 - April 31, 2022
 
 Diagonal Technologies, <br>
 Lalitpur, Nepal
 
-- Worked on the ML pipeline: data cleaning and pre-processing, model building, tuning hyperparameters, model
-  training, and model evaluation in NLP and Computer Vision domain.
-
-- Developed a product classifier using chemical attributes to optimize business decisions for products that go unsold
-  using boosting algorithms including Gradient Boosting, Random Forests, XGBoost, LightGBM.
-
-- Built an intelligent character recognition system using CNN and RNN to predict handwritten texts (both English
-  and Nepali) in manually-filled form fields with an accuracy of 95%.
-
-- Analysed data provided by a subscription-based e-commerce client for building a recommendation system, which
-  led to an increase in revenue through cross-selling by 6% (large as we were serving 600k users).
+-Learned and immplemented API development , including RESTFUL APIs, microservices and graphQL. Trained in handling security and data protection, authentication and authorization between multiple systems, servers, and environments. Learned to write automated test suites for correctness and scalability.
 
 ---
 
