@@ -18,8 +18,11 @@ author_profile: true
 - [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
   A modified retro style game similar to sonic made as part of intrenship.
 
-- [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
-  A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart.
+- [Chinese to Nepali Tranlation ](https://2d-1.darshanacharya.repl.co/)<br>.
+  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for trainining and multinlingual dataset as bible corpse dataset for training.
+
+<!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
+  A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
 
 - [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
   An application that helps you to visualize the core principles on which any blockchain application is build upon.
@@ -27,7 +30,7 @@ author_profile: true
 <!-- - [Make playable drum](https://github.com/acharyadarshan/MathMate)<br>
   A web application written in python that uses concepts from pygame to give you playable drum with nice UI. -->
 
-- [Visaulize quicksort](https://visualizequicksort.netlify.app/)<br>
-  A web application that helps you to visualize the fastest searching algorithm quick sort
+<!-- - [Visaulize quicksort](https://visualizequicksort.netlify.app/)<br>
+  A web application that helps you to visualize the fastest searching algorithm quick sort -->
 
 ---
