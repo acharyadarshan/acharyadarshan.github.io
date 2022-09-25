@@ -129,8 +129,8 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
 
-- [Chinese to Nepali Tranlation ](https://2d-1.darshanacharya.repl.co/)<br>.
-  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for trainining and multinlingual dataset as bible corpse dataset for training.
+- [Chinese to Nepali Translation ](https://2d-1.darshanacharya.repl.co/)<br>.
+  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
 - [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
   An application that helps you to visualize the core principles on which any blockchain application is build upon.

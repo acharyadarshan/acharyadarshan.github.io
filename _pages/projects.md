@@ -18,8 +18,8 @@ author_profile: true
 - [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
   A modified retro style game similar to sonic made as part of intrenship.
 
-- [Chinese to Nepali Tranlation ](https://2d-1.darshanacharya.repl.co/)<br>.
-  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for trainining and multinlingual dataset as bible corpse dataset for training.
+- [Chinese to Nepali Translation ](https://2d-1.darshanacharya.repl.co/)<br>.
+  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
