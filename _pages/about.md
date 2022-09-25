@@ -72,9 +72,20 @@ Kathmandu, Nepal
 Designed and immplemented frontend applications such as Ball collision, Flappy Bird, 2D car game, designed and converted figma design to code with the help of senior developers and mentors assigned to the team.
 [Link to internship projects](https://acharyadarshan.github.io/LeapFrog/)
 
+### Machine Learning Intern
+
+Feb, 2022 - May 31, 2022
+
+GritFeat Solutions, <br>
+Kathmandu, Nepal
+
+-Conducted detailed error analysis and developed models by breaking down the error classes and prepared a report on limitations of the model and improvement strategies on the road traffic data for the Government of Nepal.
+Used semi-supervised algorithms to utilize a large number of unannotated data for model training.
+Familarized with GAN, VAE, Factorization machines by participating in paper reading session.
+
 ### Software Engineering Intern
 
-Jan, 2022 - April 31, 2022
+Jan, 2022 - Feb, 2022
 
 Diagonal Technologies, <br>
 Lalitpur, Nepal
