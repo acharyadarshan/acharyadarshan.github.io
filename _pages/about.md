@@ -20,7 +20,7 @@ Graduate Research Assisstant, <br>
 I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
 I am a passionate developer with love for Javascript and NLP. I am learner by DNA. I like building things and sharing it to the community.
 
-**Research Interests**: natural language processing, pattern recognition, computer vision, detection and recognition of graphical structures, deeplearning, ,software engineering
+**Research Interests**: statistical machine Learning, pattern recognition, detection and recognition of graphical structures, deeplearning, software engineering
 
 ---
 
@@ -41,7 +41,7 @@ Pokhara, Nepal
 
 ---
 
-**Coursework:** Machine Learning; Artificial Intelligence; Natural Language Processing; Data Structure and Algorithms;
+**Coursework:** Machine Learning; Probability and statistics; Natural Language Processing; Data Structure and Algorithms;
 Database Management Systems; Operating Systems; Advanced Calculus and Linear Algebra; C; C++; Computer Architecture;
 Software Engineering; Digital Signal Processing; Embedded Systems
 
@@ -53,7 +53,7 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ### Associate Software Engineer
 
-July, 2022 - September 2022
+July, 2022 - October 2022
 
 Leapfrog Technology, <br>
 Kathmandu, Nepal
@@ -117,6 +117,9 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
   Note: Initially loading project requires 15-20s to fetch data from backend server
 
+- [Chinese to Nepali Translation ](https://2d-1.darshanacharya.repl.co/)<br>.
+  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
+
 - [Automated musical tune generation using char RNN](https://acharyadarshan.github.io/2020/03/web-pelican-intro/)<br>
   An application that can generate a sequence of ABC musical notes which can be played by media player to compose musical tunes
 
@@ -128,9 +131,6 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
-
-- [Chinese to Nepali Translation ](https://2d-1.darshanacharya.repl.co/)<br>.
-  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
 - [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
   An application that helps you to visualize the core principles on which any blockchain application is build upon.
