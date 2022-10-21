@@ -53,7 +53,7 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ### Associate Software Engineer
 
-July, 2022 - October 2022
+January, 2022 - October 2022
 
 Leapfrog Technology, <br>
 Kathmandu, Nepal
@@ -64,7 +64,7 @@ Building projects mainly on health related systems as a part of fronend team for
 
 ### Software Engineering Intern
 
-May 2022- July 2022
+October 2022- January 2022
 
 Leapfrog Technology Inc <br>
 Kathmandu, Nepal
@@ -74,7 +74,7 @@ Designed and immplemented frontend applications such as Ball collision, Flappy B
 
 ### Machine Learning Intern
 
-Feb, 2022 - May 31, 2022
+May, 2020 - Septempber, 2020
 
 GritFeat Solutions, <br>
 Kathmandu, Nepal
@@ -85,7 +85,7 @@ Familarized with GAN, VAE, Factorization machines by participating in paper read
 
 ### Software Engineering Intern
 
-Jan, 2022 - Feb, 2022
+Jan, 2020 - June, 2020
 
 Diagonal Technologies, <br>
 Lalitpur, Nepal
