@@ -117,7 +117,7 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
   Note: Initially loading project requires 15-20s to fetch data from backend server
 
-- [Chinese to Nepali Translation ](https://2d-1.darshanacharya.repl.co/)<br>.
+- [Chinese to Nepali Translation ](https://github.com/acharyadarshan/Speech-Translator)<br>.
   An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
 - [Automated musical tune generation using char RNN](https://acharyadarshan.github.io/2020/03/web-pelican-intro/)<br>
