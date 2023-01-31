@@ -51,14 +51,14 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ---
 
-<!-- ### Associate Software Engineer
+### Associate Software Engineer
 
 January, 2022 - October 2022
 
 Leapfrog Technology, <br>
 Kathmandu, Nepal
 
-Building projects mainly on health related systems as a part of fronend team for clients overseas using ReactJS, Node JS, Chakra UI. Particularly working on the state management of the frontend components and their testing. -->
+Building projects mainly on health related systems as a part of fronend team for clients overseas using ReactJS, Node JS, Chakra UI. Particularly working on the state management of the frontend components and their testing.
 
 ---
 
