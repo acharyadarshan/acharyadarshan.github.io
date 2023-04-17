@@ -18,9 +18,9 @@ Graduate Research Assisstant, <br>
  -->
 
 I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
-I am a passionate developer with love for Javascript, Program Analysis,statistical machine learning and NLP. I am learner by DNA. I love building things and sharing it to the community.
+I am a passionate developer with love for SE and PL. I am learner by DNA and I love software in its entirety.
 
-**Research Interests**: statistical machine Learning, pattern recognition, detection and recognition of graphical structures, deeplearning, software engineering
+<!-- **Research Interests**: statistical machine Learning, pattern recognition, detection and recognition of graphical structures, deeplearning, software engineering -->
 
 ---
 
