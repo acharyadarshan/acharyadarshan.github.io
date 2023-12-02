@@ -17,7 +17,7 @@ Graduate Research Assisstant, <br>
 [Rochester Institute of Technology](https://www.rit.edu), New York
  -->
 
-I am a Computer Engineering Graduate at Institute of Engineering, Paschimanchal Campus Nepal.
+I am a graduate student in computer science at the University of California, Davis.
 I am a passionate developer with love for SE and PL. I am learner by DNA and I love software in its entirety.
 
 <!-- **Research Interests**: statistical machine Learning, pattern recognition, detection and recognition of graphical structures, deeplearning, software engineering -->
