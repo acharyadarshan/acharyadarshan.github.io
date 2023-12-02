@@ -32,6 +32,22 @@ Get a PDF copy of my CV [here](/files/Darshan_Acharya_Resume.pdf)
 
 ---
 
+### Masters, Computer Science
+
+2017-2021
+
+University of California, Davis <br>
+Davis, California
+
+---
+
+**Coursework:** Machine Learning; Distributed Database Systems; Advanced Computer Architecture; Software Engineering;
+
+
+---
+
+---
+
 ### BE, Computer Engineering
 
 2017-2021
