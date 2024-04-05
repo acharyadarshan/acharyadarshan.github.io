@@ -1,4 +1,4 @@
----
+<!-- ---
 title: Automated Musical Tune Generation using char RNN
 date: 2020-03-19 21:00
 categories: [Pelican-for-website-creation]
@@ -317,4 +317,4 @@ Ouput using external web application abcjs.net
 [5] O. D. Van, A. Dieleman, Z. Sander, S. Heiga, K. Vinyals, A. Graves, N. Kalchabrenner, A. Senior, K. Kavukcuogl, “WaveNet:A Generative Model for Raw Audio, 1609”,2016  
 [6] Payne, Christine. MuseNet: OpenAI, Available at: openai.com/blog/musenet. 25 Apr. 2019  
 [7] C. Dalitz, “ABC User's Guide Book”, Apr. 2022  
-[8] L. Richardson, Beautiful soup Documentation Release 4.4.0, 24 Dec. 2019
+[8] L. Richardson, Beautiful soup Documentation Release 4.4.0, 24 Dec. 2019 -->

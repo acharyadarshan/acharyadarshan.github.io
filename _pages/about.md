@@ -24,7 +24,7 @@ I am a passionate developer with love for SE and PL. I am learner by DNA and I l
 
 ---
 
-Get a PDF copy of my CV [here](/files/Darshan_Acharya_Resume.pdf)
+Get a PDF copy of my CV [here](/files/DA_Resume.pdf)
 
 ---
 
@@ -34,14 +34,14 @@ Get a PDF copy of my CV [here](/files/Darshan_Acharya_Resume.pdf)
 
 ### Masters, Computer Science
 
-2017-2021
+2023-2025
 
 University of California, Davis <br>
 Davis, California
 
 ---
 
-**Coursework:** Machine Learning; Distributed Database Systems; Advanced Computer Architecture; Software Engineering;
+**Coursework:** Advanced Computer Architecture; Distributed Database Systems; Machine Learning; Software Engineering;
 
 
 ---
@@ -67,20 +67,18 @@ Software Engineering; Digital Signal Processing; Embedded Systems
 
 ---
 
-### Associate Software Engineer
+### Software Engineer
 
-January, 2022 - October 2022
+July, 2021 - Aug 2023
 
 Leapfrog Technology, <br>
 Kathmandu, Nepal
-
-Building projects mainly on health related systems as a part of fronend team for clients overseas using ReactJS, Node JS, Chakra UI. Particularly working on the state management of the frontend components and their testing.
 
 ---
 
 ### Software Engineering Intern
 
-October 2022- January 2022
+March 2021- May 2021
 
 Leapfrog Technology Inc <br>
 Kathmandu, Nepal
@@ -129,21 +127,24 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 ### Projects
 
+-[UTXO Visualization](https://utxo.netlify.app/)<br>
+ a transaction heatmap visualization for more than 10K transactions in the Resilient Database developed by the Expo lab at UC Davis
+
 - [Logic Simulator ](https://logic-circuit-simulator-frontend.darshanacharya.repl.co/)<br>
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
   Note: Initially loading project requires 15-20s to fetch data from backend server
 
+-[Python testing frameworks](https://github.com/EYH0602/TestEval)<br> Evaluation of Python frameworks used on open-source software
+
 - [Chinese to Nepali Translation ](https://github.com/acharyadarshan/Speech-Translator)<br>.
   An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
-- [Automated musical tune generation using char RNN](https://acharyadarshan.github.io/2020/03/web-pelican-intro/)<br>
-  An application that can generate a sequence of ABC musical notes which can be played by media player to compose musical tunes
 
 - [Draw using discrete fourier transform](https://drawusing-fourier.netlify.app/)<br>
   An application that helps you draw any shape or figure and visualize the working of Fourier transform to rebuild the same figure by application of the Fourier transform.
 
 - [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
-  A modified retro style game similar to sonic made as part of intrenship.
+  A modified retro style game similar to sonic made as part of internship.
 
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
