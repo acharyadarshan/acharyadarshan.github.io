@@ -180,7 +180,7 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 --- -->
 
-## Technical Skills
+<!-- ## Technical Skills
 
 ---
 
@@ -190,4 +190,4 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 - **Database**: Firebase,MySQL, MongoDB
 - **Other Tools**: Git, Github, Bash, Linux,
 
----
+--- -->
