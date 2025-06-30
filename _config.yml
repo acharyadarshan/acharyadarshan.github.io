@@ -69,8 +69,8 @@ google_analytics:
 toc: true
 
 # Social Sharing
-twitter:
-  username               : &twitter darshan_levi
+# twitter:
+#   username               : &twitter darshan_levi
 facebook:
   username               :
   app_id                 :
