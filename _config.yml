@@ -83,7 +83,7 @@ social:
   email: acharyadarshan02@gmail.com             # change to your email address
   links:
     # The first element serves as the copyright owner's link
-    - https://twitter.com/darshan_levi      # change to your twitter homepage
+    # - https://twitter.com/darshan_levi      # change to your twitter homepage
     - https://github.com/acharyadarshan       # change to your github homepage
     # Uncomment below to add more social links
     # https://www.facebook.com/ayushkumarshah
@@ -128,7 +128,7 @@ author:
   stackoverflow    : # http://stackoverflow.com/users/123456/username
   steam            :
   tumblr           :
-  twitter          : "darshan_levi"
+  # twitter          : "darshan_levi"
   vine             :
   weibo            :
   xing             :
