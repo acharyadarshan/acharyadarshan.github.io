@@ -52,7 +52,7 @@ Davis, California
 
 2017-2021
 
-Institute of Engineering Paschimanchal Campus, <br>
+Institute of Engineering, Tribhuvan University <br>
 Pokhara, Nepal
 
 ---
@@ -132,7 +132,7 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 - [Logic Simulator ](https://logic-circuit-simulator-frontend.           darshanacharya.repl.co/)<br>
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
-  Note: Initially loading project requires 15-20s to fetch data from backend servern
+  Note: Initially loading project requires 15-20s to fetch data from backend server.
 
 - [Python testing frameworks](https://github.com/EYH0602/TestEval)<br>      Evaluation of Python frameworks used on open-source software
 
