@@ -140,11 +140,8 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
   An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
 
 
-- [Draw using discrete fourier transform](https://drawusing-fourier.netlify.app/)<br>
-  An application that helps you draw any shape or figure and visualize the working of Fourier transform to rebuild the same figure by application of the Fourier transform.
-
-- [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
-  A modified retro style game similar to sonic made as part of internship.
+ <!-- [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
+  A modified retro style game similar to sonic made as part of internship. -->
 
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
