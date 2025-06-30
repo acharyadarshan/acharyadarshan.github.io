@@ -121,9 +121,9 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 ---
 
-## Technical Experience
+<!-- ## Technical Experience
 
----
+--- -->
 
 <!-- ### Projects
 
@@ -146,8 +146,8 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 <!-- - [Portable Electrocardiogram Device ](https://acharyadarshan.netlify.app/projects.html)<br>
   A cheap and easily portable ECG device that helps you to measure the various prinicpal pulsating activities of heart. -->
 
-- [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
-  An application that helps you to visualize the core principles on which any blockchain application is build upon.
+<!-- - [Nepali Blockchain](https://nepaliblockchain.netlify.app/)<br>
+  An application that helps you to visualize the core principles on which any blockchain application is build upon. -->
 
 <!-- - [Make playable drum](https://github.com/acharyadarshan/MathMate)<br>
   A web application written in python that uses concepts from pygame to give you playable drum with nice UI. -->
