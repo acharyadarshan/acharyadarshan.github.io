@@ -41,7 +41,7 @@ Davis, California
 
 ---
 
-**Coursework:** Advanced Computer Architecture; Distributed Database Systems; Machine Learning; Software Engineering;
+**Coursework:** Advanced Computer Architecture; Distributed Database Systems; Machine Learning; Software Engineering; Design and Analsis of Algorithms, Computer and Information Security, Theory of Computation
 
 
 ---
@@ -125,7 +125,7 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 
 ---
 
-### Projects
+<!-- ### Projects
 
 - [UTXO Visualization](https://utxo.netlify.app/)<br>
  a transaction heatmap visualization for more than 10K transactions in the Resilient Database developed by the Expo lab at UC Davis
@@ -137,7 +137,7 @@ Fundamentals of CS, Python Programming, Data Structure, C programming.
 - [Python testing frameworks](https://github.com/EYH0602/TestEval)<br>      Evaluation of Python frameworks used on open-source software
 
 - [Chinese to Nepali Translation ](https://github.com/acharyadarshan/Speech-Translator)<br>.
-  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training.
+  An application that can translate chinese speech to Nepali offline. Made using tacotron 2 model for TTS, transformer for training and multilingual dataset as bible corpse dataset for training. -->
 
 
  <!-- [2D Fighting game ](https://2d-1.darshanacharya.repl.co/)<br>.
