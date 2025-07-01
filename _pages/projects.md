@@ -12,7 +12,7 @@ author_profile: true
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
   Note: Initially loading project requires 15-20s to fetch data from backend server
 
--[Semi-Supervised Domain Generalization](https://drive.google.com/file/d/1fJSRAJ9UyIF1p0ywE2aQJQLAAwcl0iSC/view?usp=drive_link)
+- [Semi-Supervised Domain Generalization](https://drive.google.com/file/d/1fJSRAJ9UyIF1p0ywE2aQJQLAAwcl0iSC/view?usp=drive_link)<br>
 Developed NCMatch, a novel regularization technique that enhances semi-supervised domain generalization by leveraging contrastive learning. Built on top of the FixMatch framework, NCMatch utilizes pseudo-labels to sample class-level negative examples, effectively addressing the compounding error problem and outperforming prior methods such as StyleMatch and DeFixMatch across benchmarks (PACS, Office-Home, HAM10000).
 
 Achieved improved generalization to unseen domains with no reliance on pretraining, reducing overhead while increasing accuracy by up to 3.5% on average
