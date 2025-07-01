@@ -3,10 +3,12 @@ layout: archive
 title: "Projects"
 permalink: /projects/
 author_profile: true
++published: false      
 ---
+
 - [UTXO Visualization](https://utxo.netlify.app/)<br>
  a transaction heatmap visualization for more than 10K transactions in the Resilient Database developed by the Expo lab at UC Davis
- 
+
 - [Logic Simulator ](https://logic-circuit-simulator-frontend.darshanacharya.repl.co/)<br>
   An application that helps you simulate and visualize the various electric circuits using fundamental logic gates.
   Note: Initially loading project requires 15-20s to fetch data from backend server
