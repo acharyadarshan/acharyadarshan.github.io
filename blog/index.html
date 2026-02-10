@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Blog | Seemron Neupane</title>
+
+  <link rel="stylesheet" href="../assets/stylesheet.css" />
+  <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+
+  <style>
+    .post-container { max-width: 900px; margin: 0 auto; padding: 24px; }
+  </style>
+</head>
+
+<body>
+  <div id="navbar-placeholder"></div>
+
+  <main class="post-container aligned-text">
+    <h1 class="subheaders">Blog</h1>
+    <ul>
+      <li><a href="blog-mountains.html">Slow mornings and long walks uphill</a></li>
+      <li><a href="blog-research.html">What the mountains in Nepal taught me</a></li>
+    </ul>
+  </main>
+
+  <div id="footer-placeholder"></div>
+
+  <script>
+    $(function () {
+      $("#navbar-placeholder").load("../layouts/navbar.html");
+      $("#footer-placeholder").load("../layouts/footer.html");
+    });
+  </script>
+</body>
+</html>
