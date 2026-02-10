@@ -1,54 +1,27 @@
-Index preview · HTML
-Copy
-
 <!doctype html>
 <html lang="en">
 <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-    <meta name="theme-color" content="#222222">
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
     <title>Seemron Neupane</title>
     <style>
-        /* Original stylesheet.css */
         .about { margin-top: 0pt; text-align: justify; }
-        .aligned-text { text-align: justify; }
         .subheaders { font-size: 12pt; font-weight: bold; margin-top: 10pt; }
-        .paper-titles { margin-top: 8pt; font-size: 12pt; font-weight: bold; }
         .navbar-brand { margin-right: 30pt; }
-        .nav-item { margin-right: 0pt; }
-        .about a.in-text { color: #007bff; text-decoration: none; }
-        .paper { margin-top: 0pt; margin-bottom: 10pt; border-left: 1px solid #ddd; }
-        a:hover { text-decoration: none; transition-duration: 0.3s; transition-timing-function: linear; }
-        .tagsep { padding: 4px; }
-        .tag { padding-right: 2px; }
-        .conf { display: inline-block; padding-bottom: 4px; }
-        .thisauthor { color: #000; text-decoration: underline; font-weight: bold; }
+        a:hover { text-decoration: none; transition-duration: 0.3s; }
 
-        /* Profile card styles */
         .profile-section {
-            display: flex;
-            gap: 2.5rem;
-            align-items: flex-start;
-            margin-bottom: 2rem;
-            padding-bottom: 2rem;
-            border-bottom: 1px solid #e5e5e5;
+            display: flex; gap: 2.5rem; align-items: flex-start;
+            margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e5e5e5;
         }
         .profile-photo-wrap { flex-shrink: 0; }
         .profile-photo {
-            width: 180px;
-            height: 180px;
-            border-radius: 8px;
-            object-fit: cover;
-            border: 2px solid #e5e5e5;
-            box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+            width: 180px; height: 180px; border-radius: 8px; object-fit: cover;
+            border: 2px solid #e5e5e5; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
         }
-        .profile-info h1 {
-            font-size: 1.6rem;
-            font-weight: 700;
-            margin: 0 0 0.15rem 0;
-        }
+        .profile-info h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 0.15rem 0; }
         .profile-title { font-size: 1rem; color: #555; margin-bottom: 0.5rem; }
         .profile-location, .profile-email { font-size: 0.88rem; color: #888; margin-bottom: 0.15rem; }
         .profile-email { margin-bottom: 0.75rem; }
@@ -60,7 +33,6 @@ Copy
             transition: all 0.2s ease;
         }
         .profile-links a:hover { border-color: #007bff; color: #007bff; }
-        /* Placeholder avatar */
         .avatar-placeholder {
             width: 180px; height: 180px; border-radius: 8px;
             background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
@@ -76,15 +48,11 @@ Copy
     </style>
 </head>
 <body>
-    <!-- NAVBAR (inline) -->
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
         <div class="container">
-            <div class="col-lg-8 mx-auto d-flex flex-wrap align-items: center justify-content-between">
+            <div class="col-lg-8 mx-auto d-flex flex-wrap align-items-center justify-content-between">
                 <a class="navbar-brand" href="#">Seemron Neupane</a>
-                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarContent">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="collapse navbar-collapse" id="navbarContent">
+                <div class="collapse navbar-collapse show">
                     <ul class="navbar-nav ml-auto">
                         <li class="nav-item"><a class="nav-link" href="#">Misc.</a></li>
                     </ul>
@@ -96,6 +64,8 @@ Copy
     <div class="container pt-5">
         <div class="row justify-content-center">
             <div class="col-lg-8">
+
+                <!-- PROFILE CARD -->
                 <div class="profile-section">
                     <div class="profile-photo-wrap">
                         <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
@@ -106,149 +76,103 @@ Copy
                         <div class="profile-location"><i class="fas fa-map-marker-alt"></i> Lalitpur, Nepal</div>
                         <div class="profile-email"><i class="fas fa-envelope"></i> <a href="mailto:seemronneupane2@gmail.com">seemronneupane2@gmail.com</a></div>
                         <div class="profile-links">
-                            <a href="https://linkedin.com/in/seemron-neupane/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
-                            <a href="https://github.com/seemron" target="_blank"><i class="fab fa-github"></i> GitHub</a>
-                            <a href="#" target="_blank"><i class="fas fa-file-alt"></i> CV</a>
+                            <a href="#"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                            <a href="#"><i class="fab fa-github"></i> GitHub</a>
+                            <a href="#"><i class="fas fa-file-alt"></i> CV</a>
                         </div>
                     </div>
                 </div>
 
-                <!-- EDUCATION -->
+                <!-- INTRODUCTION -->
+                <div class="about">
+                    <p>
+                        I am an Electronics &amp; Communication Engineer currently working as a Test Engineer at
+                        <a href="https://www.oppo.com" target="_blank">OPPO</a>, where I validate unreleased devices
+                        across engineering and design validation phases. Previously, I worked as an RF Analyst and
+                        Drive Test Engineer at <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>,
+                        analyzing live network performance on a Nepal Telecom project.
+                    </p>
+                    <p>
+                        I completed my B.Eng. in Electronics, Information and Communication Engineering at
+                        <a href="https://tu.edu.np/" target="_blank">Tribhuvan University</a>.
+                        I am currently seeking graduate school opportunities to transition from applied engineering
+                        into wireless systems research.
+                    </p>
+                </div>
+
+                <!-- RESEARCH INTERESTS -->
                 <div>
-                    <div class="subheaders">Education</div>
+                    <div class="subheaders">Research Interests</div>
                     <div class="py-2">
-                        <p class="pl-2">
-                            <strong>Bachelor of Engineering in Electronics, Information and Communication</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">May 2025</span><br>
-                            Tribhuvan University
-                            <span style="float:right; font-size:0.9em; color:#888;">Pokhara, Nepal</span><br>
-                            <span style="font-size:0.9em; color:#555;">
-                                <strong>Relevant Coursework:</strong> Data Structures, Algorithm Design, Artificial Intelligence, Database Management, Big Data, Computer Architecture, Advanced Calculus, Analog and Digital Signal Processing, Wireless, Radio Frequency and Microwaves, Telecommunication, Antenna and Parameters
-                            </span>
+                        <p style="text-align:justify;">
+                            My research interest lies in building wireless systems that remain robust when real-world
+                            conditions violate clean modeling assumptions. Specifically, I am interested in how handsets
+                            can use <strong>low-fidelity, cheap-to-observe signals</strong>&mdash;coarse CQI reports,
+                            HARQ retransmission patterns, thermal readings, modem state transitions&mdash;to adapt
+                            physical-layer and scheduling parameters under non-stationary channels, without relying on
+                            expensive measurements or ideal feedback loops.
+                        </p>
+                        <p style="text-align:justify;">
+                            Topics I want to explore include:
+                        </p>
+                        <ul style="color:#333;">
+                            <li><strong>Adaptive link and PHY configuration</strong> using indirect proxy signals for regime-shift detection under mobility and interference.</li>
+                            <li><strong>Cross-layer failure modeling</strong>&mdash;understanding how PHY and upper-layer interactions produce long-tail stalls and throughput collapse that average-case metrics hide.</li>
+                            <li><strong>Evaluation methodology</strong> that surfaces tail behavior and reproducible edge-case failures, rather than only reporting means.</li>
+                        </ul>
+                        <p style="text-align:justify;">
+                            My applied background in RF drive testing, device validation, and embedded systems gives me
+                            a measurement-first perspective: I have seen the gap between what models assume and what
+                            devices actually do in the field, and I want to work on methods that close it in a principled,
+                            reproducible way.
                         </p>
                     </div>
                 </div>
 
-                <!-- EXPERIENCE -->
+                <!-- INDUSTRY EXPERIENCE -->
                 <div>
-                    <div class="subheaders">Experience</div>
+                    <div class="subheaders">Industry Experience</div>
                     <div class="py-2">
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+                        <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
                             <strong>Test Engineer</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">November 2025 &ndash; Present</span><br>
+                            <span style="float:right; font-size:0.9em; color:#888;">Nov 2025 &ndash; Present</span><br>
                             <a href="https://www.oppo.com" target="_blank">OPPO India Pvt. Ltd.</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Use log and debug tools such as QXDM and MTK Logger to capture system logs and analyze software issues in unreleased devices.</li>
-                                <li>Conduct full functional testing of new smartphone models, including camera, Bluetooth, Wi-Fi, GPS, fingerprint, face unlock, sensors, speakers, and charging systems.</li>
-                                <li>Perform network behavior testing for 4G/5G, checking VoLTE/VoWiFi registration, call setup success, call drops, and handover stability.</li>
-                                <li>Test Android OS upgrades and OTA packages by flashing new builds, validating feature stability, checking for app crashes, heating issues, battery drain, and performance regressions.</li>
-                                <li>Execute stress and stability tests such as long-duration calls, repeated reboot cycles, multitasking pressure tests, and overnight data usage checks to ensure system reliability.</li>
-                                <li>Record and report issues using bug tracking platforms, providing clear reproduction steps, logs, screenshots, and analysis for developers.</li>
-                                <li>Validate fixes in updated builds by re-testing the same scenarios across different environments and confirming issue resolution.</li>
-                                <li>Coordinate with R&amp;D, software teams, and field testers to ensure smooth performance and readiness of the device before launch.</li>
-                            </ul>
+                            <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                                R&amp;D device validation across engineering and design phases. Firmware testing, 4G/5G network behavior analysis, modem log analysis (QXDM, MTK Logger), OTA validation, and stress testing of unreleased smartphone platforms.
+                            </p>
                         </div>
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
-                            <strong>Radio Frequency Analyst and Drive Test Engineer</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">May 2025 &ndash; October 2025</span><br>
-                            <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal Co. Pvt. Ltd.</a>
+
+                        <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+                            <strong>RF Analyst &amp; Drive Test Engineer</strong>
+                            <span style="float:right; font-size:0.9em; color:#888;">May &ndash; Oct 2025</span><br>
+                            <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Perform RF optimization for GSM, WCDMA, and 4G networks through drive test analysis, KPI monitoring, and trend evaluation.</li>
-                                <li>Analyze network performance to identify and troubleshoot coverage gaps, interference, and call drop issues.</li>
-                                <li>Recommend and implement parameter tuning to enhance CSSR, DCR, throughput, and overall QoS.</li>
-                                <li>Utilize Genex Probe, Google Earth Pro, and Huawei internal analytics tools for detailed reporting and visualization.</li>
-                                <li>Performed field testing using TEMS Pocket under NTA guidelines, covering MOS evaluation, idle mode testing, DL/UL throughput measurement, and Ookla-based speed verification.</li>
-                                <li>Collaborate closely with network planning and field teams to optimize network performance and elevate user experience.</li>
-                                <li>Learning 4G/5G feature rollouts by analyzing traffic patterns and proposing parameter adjustments.</li>
-                            </ul>
+                            <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                                RF optimization for GSM, WCDMA, and LTE networks on a Nepal Telecom project. Drive test analysis, KPI monitoring, coverage and interference troubleshooting, and field testing under NTA guidelines.
+                            </p>
                         </div>
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+
+                        <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
                             <strong>Electronics Engineer Intern</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">June 2024 &ndash; August 2024</span><br>
+                            <span style="float:right; font-size:0.9em; color:#888;">Jun &ndash; Aug 2024</span><br>
                             <a href="https://yarshatech.com" target="_blank">Yarsha Tech Pvt. Ltd.</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Worked on embedded system development, integrating hardware and software solutions.</li>
-                                <li>Gained hands-on experience with microcontrollers, sensors, and communication protocols.</li>
-                                <li>Developed and tested firmware for embedded applications.</li>
-                                <li>Collaborated with a team to troubleshoot and optimize system performance.</li>
-                            </ul>
+                            <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                                Embedded systems development&mdash;microcontroller programming, sensor integration, PCB-level debugging, and firmware testing.
+                            </p>
                         </div>
                     </div>
                 </div>
 
-                <!-- PROJECTS -->
-                <div>
-                    <div class="subheaders">Projects</div>
-                    <div class="py-2">
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
-                            <strong>Remote Electrocardiogram Monitoring System</strong>
-                            <a href="https://github.com/seemron/ecg-monitor" target="_blank" style="float:right; font-size:0.88em;"><i class="fab fa-github"></i> View Project</a>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Developed a remote ECG monitoring system using the AD8232 ECG sensor and ESP32 microcontroller.</li>
-                                <li>Programmed the ESP32 for real-time ECG data acquisition and transmission over Wi-Fi to a cloud server.</li>
-                                <li>Designed REST APIs to enable secure data transmission and real-time visualization of ECG readings.</li>
-                            </ul>
-                        </div>
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
-                            <strong>Automatic Bus Fare Deduction System</strong>
-                            <a href="https://github.com/seemron/bus-fare" target="_blank" style="float:right; font-size:0.88em;"><i class="fab fa-github"></i> View Project</a>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Developed an automated bus fare deduction system using RFID, Arduino, and GPS, utilizing I2C communication.</li>
-                                <li>Designed and implemented a Django-based backend to manage user data, fare transactions, and route tracking.</li>
-                                <li>Built a mobile application using Flutter to allow passengers to view buses and fare details in real time.</li>
-                            </ul>
-                        </div>
-                        <div class="mb-4 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
-                            <strong>Airlines Management System</strong>
-                            <a href="https://github.com/seemron/airlines" target="_blank" style="float:right; font-size:0.88em;"><i class="fab fa-github"></i> View Project</a>
-                            <ul style="font-size:0.92em; color:#555; margin-top:0.4rem;">
-                                <li>Developed a database-driven application to manage airline operations including flights, bookings, passengers, and schedules.</li>
-                                <li>Designed normalized relational schemas using SQL with proper primary and foreign keys.</li>
-                                <li>Optimized SQL queries for efficiency and scalability.</li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-
-                <!-- TECHNICAL SKILLS -->
-                <div>
-                    <div class="subheaders">Technical Skills</div>
-                    <div class="py-2 pl-2">
-                        <p style="font-size:0.92em; color:#555; margin-bottom:0.3rem;">
-                            <strong style="color:#222;">Languages:</strong> Python, C/C++, SQL, HTML, CSS, Java
-                        </p>
-                        <p style="font-size:0.92em; color:#555; margin-bottom:0;">
-                            <strong style="color:#222;">Developer Tools:</strong> Git/GitHub, Postman, Genex Probe, Genex Assistant, Google Earth Pro, VS Code, MATLAB, KiCad, Proteus, Flash Tool, OTA Test Tool
-                        </p>
-                    </div>
-                </div>
-
-                <!-- PARTICIPATION -->
-                <div>
-                    <div class="subheaders">Participation</div>
-                    <div class="py-2 pl-2">
-                        <p style="font-size:0.92em; color:#555;">
-                            <strong style="color:#222;">Shequal Hackathon 2024</strong> &mdash; Nepal's Largest All-Female Hackathon<br>
-                            Selected and participated with teammates, developing an IoT system integrated with a mobile application and cloud backend. The event was a three-day closed camp, and our team secured 6th place out of 20 teams from across Nepal.
-                        </p>
-                    </div>
-                </div>
             </div>
         </div>
     </div>
 
-    <!-- FOOTER (inline) -->
-    <footer class="mt-5 py-4 bg-light">
+    <footer class="mt-5 py-4 bg-light" style="border-top:1px solid #e5e5e5;">
         <div class="container">
             <p class="text-center text-muted mb-0" style="font-size:0.82rem;">&copy; 2025 Seemron Neupane</p>
         </div>
     </footer>
-
-    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
 </body>
 </html>
