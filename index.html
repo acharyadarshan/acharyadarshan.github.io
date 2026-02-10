@@ -33,13 +33,7 @@
             transition: all 0.2s ease;
         }
         .profile-links a:hover { border-color: #007bff; color: #007bff; }
-        .avatar-placeholder {
-            width: 180px; height: 180px; border-radius: 8px;
-            background: linear-gradient(135deg, #d1d5db 0%, #9ca3af 100%);
-            display: flex; align-items: center; justify-content: center;
-            border: 2px solid #e5e5e5; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
-        }
-        .avatar-placeholder i { font-size: 4rem; color: #fff; opacity: 0.7; }
+
         @media (max-width: 640px) {
             .profile-section { flex-direction: column; align-items: center; text-align: center; }
             .profile-info { display: flex; flex-direction: column; align-items: center; }
@@ -68,7 +62,7 @@
                 <!-- PROFILE CARD -->
                 <div class="profile-section">
                     <div class="profile-photo-wrap">
-                        <div class="avatar-placeholder"><i class="fas fa-user"></i></div>
+                        <img src="images/profile.jpg" alt="Seemron Neupane" class="profile-photo">
                     </div>
                     <div class="profile-info">
                         <h1>Seemron Neupane</h1>
@@ -86,7 +80,7 @@
                 <!-- INTRODUCTION -->
                 <div class="about">
                     <p>
-                        I am an Electronics &amp; Communication Engineer currently working as a Test Engineer at
+                        I am an Electronics and Communication Engineer currently working as a Test Engineer at
                         <a href="https://www.oppo.com" target="_blank">OPPO</a>, where I validate unreleased devices
                         across engineering and design validation phases. Previously, I worked as an RF Analyst and
                         Drive Test Engineer at <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>,
@@ -105,26 +99,26 @@
                     <div class="subheaders">Research Interests</div>
                     <div class="py-2">
                         <p style="text-align:justify;">
-                            My research interest lies in building wireless systems that remain robust when real-world
+                            My research interest lies in building wireless systems that remain robust when real world
                             conditions violate clean modeling assumptions. Specifically, I am interested in how handsets
-                            can use <strong>low-fidelity, cheap-to-observe signals</strong>&mdash;coarse CQI reports,
-                            HARQ retransmission patterns, thermal readings, modem state transitions&mdash;to adapt
-                            physical-layer and scheduling parameters under non-stationary channels, without relying on
+                            can use <strong>low fidelity, cheap to observe signals</strong>, such as coarse CQI reports,
+                            HARQ retransmission patterns, thermal readings, and modem state transitions, to adapt
+                            physical layer and scheduling parameters under non stationary channels, without relying on
                             expensive measurements or ideal feedback loops.
                         </p>
                         <p style="text-align:justify;">
                             Topics I want to explore include:
                         </p>
                         <ul style="color:#333;">
-                            <li><strong>Adaptive link and PHY configuration</strong> using indirect proxy signals for regime-shift detection under mobility and interference.</li>
-                            <li><strong>Cross-layer failure modeling</strong>&mdash;understanding how PHY and upper-layer interactions produce long-tail stalls and throughput collapse that average-case metrics hide.</li>
-                            <li><strong>Evaluation methodology</strong> that surfaces tail behavior and reproducible edge-case failures, rather than only reporting means.</li>
+                            <li><strong>Adaptive link and PHY configuration</strong> using indirect proxy signals for regime shift detection under mobility and interference.</li>
+                            <li><strong>Cross layer failure modeling</strong> understanding how PHY and upper layer interactions produce long tail stalls and throughput collapse that average case metrics hide.</li>
+                            <li><strong>Evaluation methodology</strong> that surfaces tail behavior and reproducible edge case failures, rather than only reporting means.</li>
                         </ul>
                         <p style="text-align:justify;">
                             My applied background in RF drive testing, device validation, and embedded systems gives me
-                            a measurement-first perspective: I have seen the gap between what models assume and what
-                            devices actually do in the field, and I want to work on methods that close it in a principled,
-                            reproducible way.
+                            a measurement first perspective. I have seen the gap between what models assume and what
+                            devices actually do in the field, and I want to work on methods that close it in a
+                            principled, reproducible way.
                         </p>
                     </div>
                 </div>
@@ -135,17 +129,17 @@
                     <div class="py-2">
                         <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
                             <strong>Test Engineer</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">Nov 2025 &ndash; Present</span><br>
+                            <span style="float:right; font-size:0.9em; color:#888;">Nov 2025 – Present</span><br>
                             <a href="https://www.oppo.com" target="_blank">OPPO India Pvt. Ltd.</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
                             <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
-                                R&amp;D device validation across engineering and design phases. Firmware testing, 4G/5G network behavior analysis, modem log analysis (QXDM, MTK Logger), OTA validation, and stress testing of unreleased smartphone platforms.
+                                R&amp;D device validation across engineering and design phases. Firmware testing, 4G and 5G network behavior analysis, modem log analysis using QXDM and MTK Logger, OTA validation, and stress testing of unreleased smartphone platforms.
                             </p>
                         </div>
 
                         <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
-                            <strong>RF Analyst &amp; Drive Test Engineer</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">May &ndash; Oct 2025</span><br>
+                            <strong>RF Analyst and Drive Test Engineer</strong>
+                            <span style="float:right; font-size:0.9em; color:#888;">May – Oct 2025</span><br>
                             <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
                             <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
@@ -155,11 +149,11 @@
 
                         <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
                             <strong>Electronics Engineer Intern</strong>
-                            <span style="float:right; font-size:0.9em; color:#888;">Jun &ndash; Aug 2024</span><br>
+                            <span style="float:right; font-size:0.9em; color:#888;">Jun – Aug 2024</span><br>
                             <a href="https://yarshatech.com" target="_blank">Yarsha Tech Pvt. Ltd.</a>
                             <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
                             <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
-                                Embedded systems development&mdash;microcontroller programming, sensor integration, PCB-level debugging, and firmware testing.
+                                Embedded systems development including microcontroller programming, sensor integration, PCB level debugging, and firmware testing.
                             </p>
                         </div>
                     </div>
@@ -171,7 +165,7 @@
 
     <footer class="mt-5 py-4 bg-light" style="border-top:1px solid #e5e5e5;">
         <div class="container">
-            <p class="text-center text-muted mb-0" style="font-size:0.82rem;">&copy; 2025 Seemron Neupane</p>
+            <p class="text-center text-muted mb-0" style="font-size:0.82rem;">© 2025 Seemron Neupane</p>
         </div>
     </footer>
 </body>
