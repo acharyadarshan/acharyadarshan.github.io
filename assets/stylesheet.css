@@ -1,0 +1,142 @@
+.about {
+  margin-top: 0pt;
+  text-align: justify;
+}
+
+.aligned-text {
+  text-align: justify;
+}
+
+.subheaders {
+  font-size: 12pt;
+  font-weight: bold;
+  margin-top: 10pt;
+}
+
+.paper-titles {
+  margin-top: 8pt;
+  font-size: 12pt;
+  font-weight: bold;
+}
+
+.navbar-brand {
+  margin-right: 30pt;
+}
+
+.nav-item {
+  margin-right: 0pt;
+}
+
+.about a.in-text {
+  color: #007bff;
+  text-decoration: none;
+}
+
+.paper {
+  margin-top: 0pt;
+  margin-bottom: 10pt;
+  border-left: 1px solid #ddd;
+}
+
+a:hover {
+  text-decoration: none;
+  transition-duration: 0.3s;
+  transition-timing-function: linear;
+}
+
+.tagsep {
+  padding: 4px;
+}
+
+.tag {
+  padding-right: 2px;
+}
+
+.conf {
+  display: inline-block;
+  padding-bottom: 4px;
+}
+
+.thisauthor {
+  color: #000000;
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+details {
+  border: 1px solid #aaa;
+  padding: 0 0 0;
+  margin-top: 5pt;
+  margin-bottom: 5pt;
+  border-radius: 4px;
+}
+
+summary::-webkit-details-marker {
+  display: none;
+}
+
+/* 2) Remove the marker in Firefox/modern browsers */
+summary::marker {
+  content: none;
+}
+
+/* 3) Also disable any list styling or native appearance */
+summary {
+  /* summary is by default list-item; kill that list‐marker entirely */
+  list-style: none;
+  display: block;           /* also works to eliminate native marker */
+  
+  position: relative;
+  cursor: pointer;
+  padding-left: 28px;
+  margin-left: 3px;           /* in case you had shifted it before */
+}
+
+/* 4) Now place your custom arrow */
+summary:before {
+  content: "\25B6";          /* ▶ */
+  position: absolute;
+  left: 0;
+  top: 0.1em;                /* tweak to vertically center */
+  transition: transform 0.2s ease-in-out;
+}
+
+/* 5) Rotate it when open */
+details[open] summary:before {
+  transform: rotate(90deg);
+}
+
+
+
+.content {
+  margin-left: 5pt;
+  margin-top: 10pt;
+}
+
+.popup-container {
+  display: inline-block;
+  position: relative;
+}
+
+.info-popup {
+  display: none;
+  position: absolute;
+  top: 100%;      /* Position below the button */
+  left: 50%;
+  transform: translateX(-50%);
+  background-color: #f9f9f9;
+  border: 1px solid #ccc;
+  padding: 8px;
+  border-radius: 4px;
+  z-index: 100;
+  width: 400px;
+  box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+}
+
+.info-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+  font-size: 16px;
+  padding: 0;
+}
