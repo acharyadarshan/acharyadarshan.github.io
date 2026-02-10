@@ -1,0 +1,143 @@
+---
+layout: base.njk
+pageTitle: "Seemron Neupane"
+permalink: /
+extraHead: |
+    <style>
+        .about { margin-top: 0pt; text-align: justify; }
+        .profile-section {
+            display: flex; gap: 2.5rem; align-items: flex-start;
+            margin-bottom: 2rem; padding-bottom: 2rem; border-bottom: 1px solid #e5e5e5;
+        }
+        .profile-photo-wrap { flex-shrink: 0; }
+        .profile-photo {
+            width: 180px; height: 180px; border-radius: 8px; object-fit: cover;
+            border: 2px solid #e5e5e5; box-shadow: 0 4px 16px rgba(0,0,0,0.08);
+        }
+        .profile-info h1 { font-size: 1.6rem; font-weight: 700; margin: 0 0 0.15rem 0; }
+        .profile-title { font-size: 1rem; color: #555; margin-bottom: 0.5rem; }
+        .profile-location, .profile-email { font-size: 0.88rem; color: #888; margin-bottom: 0.15rem; }
+        .profile-email { margin-bottom: 0.75rem; }
+        .profile-links { display: flex; gap: 0.65rem; flex-wrap: wrap; }
+        .profile-links a {
+            display: inline-flex; align-items: center; gap: 0.4rem;
+            padding: 0.3rem 0.75rem; border: 1px solid #e5e5e5; border-radius: 6px;
+            font-size: 0.85rem; font-weight: 500; color: #555; text-decoration: none;
+            transition: all 0.2s ease;
+        }
+        .profile-links a:hover { border-color: #007bff; color: #007bff; }
+        @media (max-width: 640px) {
+            .profile-section { flex-direction: column; align-items: center; text-align: center; }
+            .profile-info { display: flex; flex-direction: column; align-items: center; }
+            .profile-links { justify-content: center; }
+        }
+    </style>
+---
+
+<div class="container pt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+
+            <!-- PROFILE CARD -->
+            <div class="profile-section">
+                <div class="profile-photo-wrap">
+                    <img src="/images/profile.jpg" alt="{{ site.name }}" class="profile-photo">
+                </div>
+                <div class="profile-info">
+                    <h1>{{ site.name }}</h1>
+                    <div class="profile-title">{{ site.title }}</div>
+                    <div class="profile-location"><i class="fas fa-map-marker-alt"></i> {{ site.location }}</div>
+                    <div class="profile-email"><i class="fas fa-envelope"></i> <a href="mailto:{{ site.email }}">{{ site.email }}</a></div>
+                    <div class="profile-links">
+                        <a href="{{ site.linkedin }}"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                        <a href="{{ site.github }}"><i class="fab fa-github"></i> GitHub</a>
+                        <a href="{{ site.cv }}"><i class="fas fa-file-alt"></i> CV</a>
+                    </div>
+                </div>
+            </div>
+
+            <!-- INTRODUCTION -->
+            <div class="about">
+                <p>
+                    I am an Electronics and Communication Engineer currently working as a Test Engineer at
+                    <a href="https://www.oppo.com" target="_blank">OPPO</a>, where I validate unreleased devices
+                    across engineering and design validation phases. Previously, I worked as an RF Analyst and
+                    Drive Test Engineer at <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>,
+                    analyzing live network performance on a Nepal Telecom project.
+                </p>
+                <p>
+                    I completed my B.Eng. in Electronics, Information and Communication Engineering at
+                    <a href="https://en.wikipedia.org/wiki/Tribhuvan_University" target="_blank">Tribhuvan University</a>.
+                    I am currently seeking graduate school opportunities to transition from applied engineering
+                    into wireless systems research.
+                </p>
+            </div>
+
+            <!-- RESEARCH INTERESTS -->
+            <div>
+                <div class="subheaders">Research Interests</div>
+                <div class="py-2">
+                    <p style="text-align:justify;">
+                        My research interest lies in building wireless systems that remain robust when real world
+                        conditions violate clean modeling assumptions. Specifically, I am interested in how handsets
+                        can use <strong>low fidelity, cheap to observe signals</strong>, such as coarse CQI reports,
+                        HARQ retransmission patterns, thermal readings, and modem state transitions, to adapt
+                        physical layer and scheduling parameters under non stationary channels, without relying on
+                        expensive measurements or ideal feedback loops.
+                    </p>
+                    <p style="text-align:justify;">
+                        Topics I want to explore include:
+                    </p>
+                    <ul style="color:#333;">
+                        <li><strong>Adaptive link and PHY configuration</strong> using indirect proxy signals for regime shift detection under mobility and interference.</li>
+                        <li><strong>Cross layer failure modeling</strong> understanding how PHY and upper layer interactions produce long tail stalls and throughput collapse that average case metrics hide.</li>
+                        <li><strong>Evaluation methodology</strong> that surfaces tail behavior and reproducible edge case failures, rather than only reporting means.</li>
+                    </ul>
+                    <p style="text-align:justify;">
+                        My applied background in RF drive testing, device validation, and embedded systems gives me
+                        a measurement first perspective. I have seen the gap between what models assume and what
+                        devices actually do in the field, and I want to work on methods that close it in a
+                        principled, reproducible way.
+                    </p>
+                </div>
+            </div>
+
+            <!-- INDUSTRY EXPERIENCE -->
+            <div>
+                <div class="subheaders">Industry Experience</div>
+                <div class="py-2">
+                    <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+                        <strong>Test Engineer</strong>
+                        <span style="float:right; font-size:0.9em; color:#888;">Nov 2025 – Present</span><br>
+                        <a href="https://www.oppo.com" target="_blank">OPPO India Pvt. Ltd.</a>
+                        <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
+                        <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                            R&amp;D device validation across engineering and design phases. Firmware testing, 4G and 5G network behavior analysis, modem log analysis using QXDM and MTK Logger, OTA validation, and stress testing of unreleased smartphone platforms.
+                        </p>
+                    </div>
+
+                    <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+                        <strong>RF Analyst and Drive Test Engineer</strong>
+                        <span style="float:right; font-size:0.9em; color:#888;">May – Oct 2025</span><br>
+                        <a href="https://www.huawei.com" target="_blank">Huawei Technologies Nepal</a>
+                        <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
+                        <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                            RF optimization for GSM, WCDMA, and LTE networks on a Nepal Telecom project. Drive test analysis, KPI monitoring, coverage and interference troubleshooting, and field testing under NTA guidelines.
+                        </p>
+                    </div>
+
+                    <div class="mb-3 pl-2" style="border-left: 2px solid #ddd; padding-left: 12px;">
+                        <strong>Electronics Engineer Intern</strong>
+                        <span style="float:right; font-size:0.9em; color:#888;">Jun – Aug 2024</span><br>
+                        <a href="https://yarshatech.com" target="_blank">Yarsha Tech Pvt. Ltd.</a>
+                        <span style="float:right; font-size:0.9em; color:#888;">Kathmandu, Nepal</span>
+                        <p style="font-size:0.9em; color:#555; margin-top:0.3rem; margin-bottom:0;">
+                            Embedded systems development including microcontroller programming, sensor integration, PCB level debugging, and firmware testing.
+                        </p>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+</div>

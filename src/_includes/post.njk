@@ -1,0 +1,26 @@
+---
+layout: base.njk
+extraHead: |
+    <style>
+        .post-container { max-width: 900px; margin: 0 auto; padding: 24px; }
+        .post-title { margin-bottom: 6px; }
+        .post-meta { opacity: 0.75; margin-bottom: 18px; }
+        .post-content p { line-height: 1.7; }
+        .post-nav { margin-top: 28px; }
+    </style>
+---
+
+<main class="post-container">
+    <h1 class="post-title">{{ title }}</h1>
+    <div class="post-meta">{{ date | dateFormat("monthYear") }}{% if readTime %} &middot; {{ readTime }}{% endif %}</div>
+
+    <article class="post-content">
+        {{ content | safe }}
+    </article>
+
+    <div class="post-nav">
+        <a href="/misc/">&larr; Back to Misc</a>
+        &nbsp;|&nbsp;
+        <a href="/blog/">All posts &rarr;</a>
+    </div>
+</main>
