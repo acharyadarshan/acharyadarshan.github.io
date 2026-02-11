@@ -35,13 +35,25 @@ The dev server runs at `http://localhost:8080` by default.
     │   └── site.json       # Global site metadata (name, email, links)
     ├── _includes/
     │   ├── base.njk        # Base layout (every page inherits this)
-    │   └── post.njk        # Blog post layout (inherits base.njk)
+    │   ├── post.njk        # Blog post layout (inherits base.njk)
+    │   ├── paper.njk       # Individual paper layout (inherits base.njk)
+    │   └── topic.njk       # Individual topic layout (inherits base.njk)
     ├── assets/
     │   └── stylesheet.css  # Global styles
     ├── blog/
     │   ├── blog.json       # Default frontmatter for all blog posts
     │   ├── slow-mornings.md
     │   └── what-mountains-taught-me.md
+    ├── papers/
+    │   ├── papers.json     # Default frontmatter for all papers
+    │   ├── calibrated-language-models-must-hallucinate.md
+    │   ├── identity-matters-in-deep-learning.md
+    │   └── ...             # One .md file per paper (~78 files)
+    ├── topics/
+    │   ├── topics.json     # Default frontmatter for all topics
+    │   ├── flash-attention.md
+    │   ├── markov-chains.md
+    │   └── ...             # One .md file per topic (~14 files)
     ├── data/
     │   └── seemron_resume.pdf
     ├── images/
@@ -50,8 +62,8 @@ The dev server runs at `http://localhost:8080` by default.
     ├── index.njk               # Homepage
     ├── misc.njk                # Misc / About page
     ├── blog-index.njk          # Blog listing (auto-generated from blog/ folder)
-    ├── paper_summaries.njk     # Paper reading notes
-    ├── topic_summaries.njk     # Topic notes
+    ├── paper-index.njk         # Paper listing (auto-generated from papers/ folder)
+    ├── topic-index.njk         # Topic listing (auto-generated from topics/ folder)
     ├── favicon.ico
     ├── favicon.png
     ├── apple-touch-icon.png
@@ -132,6 +144,14 @@ When you create any page and set `layout: base.njk` in its frontmatter, 11ty tak
 ### The post layout (`src/_includes/post.njk`)
 
 Blog posts use a two-level chain: **post.njk → base.njk**. The post layout adds the post title, date, read time, and navigation links around the blog content, then the whole thing gets injected into base.njk.
+
+### The paper layout (`src/_includes/paper.njk`)
+
+Individual paper pages use the same two-level chain: **paper.njk → base.njk**. The paper layout displays the paper title, week range, and a back link to the papers listing. MathJax is loaded automatically.
+
+### The topic layout (`src/_includes/topic.njk`)
+
+Individual topic pages follow the same pattern: **topic.njk → base.njk**. Shows the topic title, category, and a back link to the topics listing. MathJax is loaded automatically.
 
 ### Frontmatter
 
@@ -214,104 +234,137 @@ This means every blog post automatically uses the post layout and gets added to 
 
 ---
 
-### Paper Summaries (`src/paper_summaries.njk`)
+### Paper Summaries (`src/papers/`)
 
-This is a single file containing all paper reading notes. It uses native HTML `<details>` / `<summary>` elements for collapsible sections.
+Paper summaries work exactly like blog posts — each paper is its own `.md` file. The papers listing page at `/paper_summaries/` auto-generates from all the files in `src/papers/`, grouped by week.
 
-**Structure:**
+**To add a new paper**, create a file like `src/papers/my-new-paper.md`:
 
+```markdown
+---
+title: "Paper Title Here (Author et al., 2026)"
+authors: "Author et al., 2026"
+week: "2/10/2026~2/16/2026"
+order: 1
+---
+
+<p>
+    What the paper studies. The main problem and motivation.
+</p>
+
+<b>Method</b>
+<p>
+    How they approach it. Key technical ideas.
+</p>
+
+<b>Results</b>
+<p>
+    What they found. Numbers, comparisons, ablations.
+</p>
+
+<b>Questions</b>
+<ul>
+    <li>Your open questions or critiques about this work.</li>
+    <li>Things you'd want to investigate further.</li>
+</ul>
 ```
-Date range header
-  └── Paper 1 (collapsible)
-  └── Paper 2 (collapsible)
-  └── Paper 3 (collapsible)
-Date range header
-  └── Paper 4 (collapsible)
-  ...
+
+That's it. The paper shows up on the `/paper_summaries/` page automatically, grouped under the correct week header.
+
+**How it works under the hood:** The file `src/papers/papers.json` applies default frontmatter:
+
+```json
+{
+  "layout": "paper.njk",
+  "tags": "papers"
+}
 ```
 
-**To add a new paper**, find the right date section (or create a new one) and paste this block:
+Every `.md` file in `src/papers/` uses the paper layout and joins the `papers` collection. The listing page (`src/paper-index.njk`) loops over `collections.papers`, grouped by `week`.
 
-```html
-<!-- New date section (if starting a new week) -->
-<div class="paper-titles">2/10/2026~2/16/2026</div>
+**Paper frontmatter fields:**
 
-<!-- One paper entry -->
-<details>
-    <summary>
-        Paper Title Here (Author et al., Year)
-    </summary>
-    <div class="content">
-        <p>
-            What the paper studies. The main problem and motivation.
-        </p>
-
-        <b>Method</b>
-        <p>
-            How they approach it. Key technical ideas.
-        </p>
-
-        <b>Results</b>
-        <p>
-            What they found. Numbers, comparisons, ablations.
-        </p>
-
-        <b>Questions</b>
-        <ul>
-            <li>Your open questions or critiques about this work.</li>
-            <li>Things you'd want to investigate further.</li>
-        </ul>
-    </div>
-</details>
-```
+| Field | Required | What it does |
+|---|---|---|
+| `title` | Yes | Paper title with author/year, shown in the collapsible summary |
+| `authors` | No | Author string (e.g. "Smith et al., 2025") |
+| `week` | Yes | Date range string (e.g. "2/10/2026~2/16/2026"). Papers are grouped by this |
+| `order` | No | Sorting order within a week (1, 2, 3...). Lower numbers appear first |
 
 **Notes:**
 
+- The body content uses raw HTML (not Markdown), since the original notes use HTML formatting with `<p>`, `<b>`, `<ol>`, `<ul>` tags.
 - The `<b>Method</b>`, `<b>Results</b>`, `<b>Questions</b>` structure is a convention, not a requirement. Use whatever sections make sense for each paper.
-- For a paper you haven't finished reading yet, just put `WIP` inside the content div.
-- Math works: use `\( x^2 \)` for inline math and `\[ \sum_{i=1}^{n} x_i \]` for display math. MathJax is loaded via the `extraScripts` field in the frontmatter.
+- For a paper you haven't finished reading yet, just put `WIP` as the body.
+- Math works: use `\( x^2 \)` for inline math and `\[ \sum_{i=1}^{n} x_i \]` for display math. MathJax is loaded automatically by the paper layout.
 - Use `<code>ModelName</code>` for model/method names in running text.
+- If your title contains backslashes (LaTeX math), use single quotes in the frontmatter: `title: 'From \(f(x)\) to ...'`. If it also contains an apostrophe, double the apostrophe: `title: 'Author''s Work'`.
+
+**URL pattern:** A file named `src/papers/my-paper.md` becomes `/papers/my-paper/`.
+
+**Filename convention:** Use a slugified version of the paper title. Keep it short and readable, e.g. `calibrated-language-models-must-hallucinate.md`.
 
 ---
 
-### Topic Summaries (`src/topic_summaries.njk`)
+### Topic Summaries (`src/topics/`)
 
-Same collapsible pattern as paper summaries, but grouped by **category** instead of date.
+Topic summaries follow the same modular pattern. Each topic is its own `.md` file in `src/topics/`, and the listing page at `/topic_summaries/` auto-generates from all of them, grouped by category.
 
-**Structure:**
+**To add a new topic**, create a file like `src/topics/my-new-topic.md`:
 
-```
-Category header (e.g. "Mathy Notes")
-  └── Topic 1 (collapsible)
-  └── Topic 2 (collapsible)
-Category header (e.g. "More Empirics-Centered Notes")
-  └── Topic 3 (collapsible)
-Plain list section (e.g. "Other Notes (PDFs)")
-```
+```markdown
+---
+title: "Topic Name"
+category: "Mathy Notes"
+order: 1
+---
 
-**To add a new topic:**
+<p><strong>Key Concept</strong></p>
+<p>
+    Your notes here. Explain the concept, its significance, key formulas, etc.
+</p>
 
-```html
-<!-- Under an existing category, or create a new one: -->
-<div class="subheaders">New Category Name</div>
-
-<details>
-    <summary>Topic Name</summary>
-    <div class="content">
-        <p><strong>Key Concept</strong></p>
-        <p>Your notes here...</p>
-        <p><strong>Reference:</strong> <a href="https://...">Paper or resource link</a></p>
-    </div>
-</details>
+<p><strong>Reference:</strong> <a href="https://...">Paper or resource link</a></p>
 ```
 
-**To add a PDF link at the bottom:**
+The topic shows up on the `/topic_summaries/` page automatically, under the correct category header.
+
+**How it works under the hood:** The file `src/topics/topics.json` applies default frontmatter:
+
+```json
+{
+  "layout": "topic.njk",
+  "tags": "topics"
+}
+```
+
+The listing page (`src/topic-index.njk`) loops over `collections.topics`, grouped by `category`.
+
+**Topic frontmatter fields:**
+
+| Field | Required | What it does |
+|---|---|---|
+| `title` | Yes | Topic name shown in the collapsible summary |
+| `category` | Yes | One of: `"Mathy Notes"`, `"More Empirics-Centered Notes"`, or `"Other Notes (PDFs)"` |
+| `order` | No | Sorting order within a category (1, 2, 3...). Lower numbers appear first |
+
+**Existing categories (defined in `.eleventy.js`):**
+
+- `"Mathy Notes"` — Rendered as collapsible `<details>` blocks
+- `"More Empirics-Centered Notes"` — Also collapsible `<details>` blocks
+- `"Other Notes (PDFs)"` — Rendered as a plain list (not collapsible), for linking to PDF files
+
+You can add new categories by updating the `catOrder` object in `.eleventy.js`.
+
+**To add a PDF link** under "Other Notes (PDFs)", create/edit the topic file with content like:
 
 ```html
 <li><a href="/data/my-notes.pdf" class="link">LaTeXed notes</a> for Subject Name</li>
 ```
 
 (Put the PDF file in `src/data/` so it gets copied to the output.)
+
+**URL pattern:** A file named `src/topics/my-topic.md` becomes `/topics/my-topic/`.
 
 ---
 
@@ -384,7 +437,7 @@ This site uses [Nunjucks](https://mozilla.github.io/nunjucks/) for templating. H
 {%- for post in collections.blog %}   → Loop (the - trims whitespace)
 ```
 
-**You only need Nunjucks for dynamic pages** (like the blog listing). For pages where you're just writing content (misc, paper summaries, topic summaries), it's plain HTML inside the frontmatter wrapper.
+**You only need Nunjucks for dynamic pages** (like the blog/paper/topic listing pages). For individual content files (blog posts, papers, topics, misc), it's plain HTML/Markdown inside the frontmatter wrapper.
 
 ---
 
@@ -447,11 +500,13 @@ Set the build command to `npm run build` and the publish directory to `_site`.
 
 ## Config Reference (`.eleventy.js`)
 
-The config file does three things:
+The config file does five things:
 
 1. **Date filter** — `dateFormat` converts dates to readable strings like "February 2026" in templates.
 2. **Passthrough copies** — tells 11ty to copy static files (images, CSS, PDFs, favicons) to the output as-is without processing them.
 3. **Blog collection** — gathers all `.md` files in `src/blog/`, sorts them by date (newest first), and makes them available as `collections.blog` in templates.
+4. **Papers collection** — gathers all `.md` files in `src/papers/`, sorts them by `week` (preserving the original order weeks appear) and then by `order` within each week. Available as `collections.papers`.
+5. **Topics collection** — gathers all `.md` files in `src/topics/`, sorts them by `category` (Mathy Notes → Empirics-Centered → Other Notes) and then by `order` within each category. Available as `collections.topics`.
 
 If you add a new static folder (e.g. `src/pdfs/`), add a passthrough line:
 

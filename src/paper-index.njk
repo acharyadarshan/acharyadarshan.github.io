@@ -1,0 +1,32 @@
+---
+layout: base.njk
+pageTitle: "Paper Summaries | Seemron Neupane"
+permalink: /paper_summaries/
+extraScripts: '<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>'
+---
+
+<div class="container pt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <p class="aligned-text">
+                Below are a subset of the papers that I scribbled notes for on a whim.
+                Some of these are incomplete, and others may be missing parts.
+                Mainly here to keep myself accountable for reading papers. :)
+            </p>
+
+            {%- set currentWeek = "" %}
+            {%- for paper in collections.papers %}
+                {%- if paper.data.week != currentWeek %}
+                    {%- set currentWeek = paper.data.week %}
+                    <div class="paper-titles">{{ currentWeek }}</div>
+                {%- endif %}
+                <details>
+                    <summary>{{ paper.data.title }}</summary>
+                    <div class="content">
+                        {{ paper.content | safe }}
+                    </div>
+                </details>
+            {%- endfor %}
+        </div>
+    </div>
+</div>

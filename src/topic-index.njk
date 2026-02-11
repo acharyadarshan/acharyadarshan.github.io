@@ -1,0 +1,36 @@
+---
+layout: base.njk
+pageTitle: "Topic Summaries | Seemron Neupane"
+permalink: /topic_summaries/
+extraScripts: '<script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js"></script>'
+---
+
+<div class="container pt-5">
+    <div class="row justify-content-center">
+        <div class="col-lg-8">
+            <p class="aligned-text">
+                Below are portions of scribble notes for various topics that I have come across in research that I
+                try to organize and record for future reference.
+            </p>
+
+            {%- set currentCategory = "" %}
+            {%- for topic in collections.topics %}
+                {%- if topic.data.category != currentCategory %}
+                    {%- set currentCategory = topic.data.category %}
+                    <div class="subheaders">{{ currentCategory }}</div>
+                {%- endif %}
+
+                {%- if topic.data.category == "Other Notes (PDFs)" %}
+                    {{ topic.content | safe }}
+                {%- else %}
+                    <details>
+                        <summary>{{ topic.data.title }}</summary>
+                        <div class="content">
+                            {{ topic.content | safe }}
+                        </div>
+                    </details>
+                {%- endif %}
+            {%- endfor %}
+        </div>
+    </div>
+</div>
